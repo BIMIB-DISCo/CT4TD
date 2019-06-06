@@ -1,6 +1,10 @@
-Just lauch the Mathematica notebook
+Just lauch the Mathematica notebook to obtain Fig.5 for every patient in the dataset
 
 "Plot-1dd-M-F.nb" studies the case of 1 dose per day
 
-"Plot-3dd-M-F.nb" studies the case of 3 dose per day (thi figure is in the SI)
+"Plot-3dd-M-F.nb" studies the case of 3 dose per day (this figure is in the SI)
+
+The files "doses-Add-TB-wxx.txt" contains the values of the dosages for the tumor burden optimization (ws(ii) in the paper)
+for A (1 or 3) doses per day and with \phi=xx.
+
 
