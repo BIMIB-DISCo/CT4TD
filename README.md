@@ -14,20 +14,30 @@ This repositories contains script and data to reproduced the case study discusse
 In particular, we apply CT4TD to the case of Imatinib administration in Chronic Myeloid Leukemia and show that tailored therapies display remarkable advantages in terms of efficacy and reduced toxicity.
 
 ----------------------------------
-Instructions to reproduce the case study
+Instructions to reproduce the case study presented in the paper
+----------------------------------
 
-In the folders you could find the programs to generate the figures of main text and of SI, the data analysis and the RedCrab suite.
+**Software Requiremtents**
+- Matlab (any version)
+- Mathematica (any version)
+- Python (>= 2.0)
 
-To run an optimization open the "REDCRAB/RedCRAB_Client" folder and read the quick start guide to configure it. 
-You could modify PK/PD parameters, number of doses and functional costs inside the MATLAB program Main_so.m. Then, finally lauch RedCrab.py to start.
+**Instructions** 
+The various folders of this GitHub repository include the scripts to generate the figures of the main text and of the SI of the article, as well as to perform the longitudinal data analysis and to launch the RedCrab suite. Please follow the following steps. 
 
-After the optimization is ended, take the file SI=*** (read quick start guide to find it) into the folder "to-extract-results" and run Theoretical_interface.m (NOTE you need to modify Main_so.m with same parameters and number of doses of the Main_so.m in the folder RedCRAB_Client) and you will obtain a file n_doses.txt, wich contains the time schedule and the dosage
+1) In order to perform the optimization procedure, one should first access to the "REDCRAB/RedCRAB_Client" folder and follow the instructions contained in the readme file, which include a quick start guide oncerning the pipeline configuration. 
+It is possible to set the parameters of the PK/PD models, the number of doses and to define distinct functional costs by modifying the MATLAB script named "Main_so.m". 
+It is then possible to launch the Python script named "RedCrab.py".
 
-To obtain figures of  optimization you have to put inside doses***.txt file the doses present in the file n_doses.txt (this is for the folder FIG3, FIG5 and FIG6 folder)
+2) After completing the optimization procedure, please move the file named SI=*** (please refer to the quick start guide on how finding it) into the folder named "to-extract-results" and successively run the Matlab script "Theoretical_interface.m" (NOTE: you will need to modify the "Main_so.m" script with same parameters and number of doses of the "Main_so.m" script included in the RedCRAB_Client floder).
+This will produce a file named "n_doses.txt", wich contains the time schedule and the dosage of the optimized therapy
 
-To run the DATA-ANALYSIS just run the Mathematica notebook
+3) To generate the figures you have to write into the file named doses***.txt file the content (i.e., the dosage) of the file "n_doses.txt". The procedure must be repeated for folders: "FIG3", "FIG5" and "FIG6" folder. 
+You can successively run the Mathematica notebook included in the folder corresponding to the Figure number. 
 
-To obtain the personalized PD from results of data analysis just run the Mathematica notebook in the folder FIG2 
+4) To run the analysis of the tumor burden variation longitudinal data, please run the Mathematica notebook included in folder: 
+
+5) Finally, to obtain the personalized PD parameters as derived by the data analysis procedure, please run the Mathematica notebook included in the folder "FIG2".  
 
 
 
