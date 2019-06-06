@@ -1,5 +1,5 @@
 Just lauch the Mathematica notebook to obtain Fig. 2 of the paper. 
-This program compare the PK of the average population with the personalized PK.
+This program compare the PK of the standard Imatinib osage of the average  population parameters with the personalized PK.
 PK personalized parameters of the patients in the dataset are in the file "personal-parameters.txt",
 please refer to "legend-personal-parameters"
 
