@@ -1,2 +1,6 @@
-Just lauch the Mathematica notebook to obtain the plot for personalized PD from  results of data analysis (i.e., \beta contained in the file "personalized-parameter.txt")
+Just lauch the Mathematica notebook to obtain the plot for personalized PD
+Note that you have to put the result of the data analysis 
+(i.e., \beta contained in the file "personal-parameters.txt") 
+and the personalized PK parameters inside the file  "personal-parameters.txt".
+Refer to "Legend-of-parameters.txt"  to known the position.
 
