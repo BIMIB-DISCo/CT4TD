@@ -41,6 +41,7 @@ To run the analysis of the tumor burden variation longitudinal data (original da
 To obtain the personalized PD parameters as derived from the data analysis procedure, please run the Mathematica notebook "evaluation-of-EC50.nb" included in the folder "FIG4".  
 
 3) **Optimization** 
+
 A) In order to perform the optimization procedure, one should first access to the "REDCRAB/RedCRAB_Client" folder and follow the instructions contained in the "QuickstartGuide.txt"  file, which include a guide concerning the pipeline configuration. 
 It is possible to set the parameters of the PK/PD models, the number of doses and to define distinct functional costs by modifying the MATLAB script named "Main_so.m". 
 It is then possible to launch the Python script named "RedCrab.py".
