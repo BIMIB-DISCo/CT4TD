@@ -53,7 +53,6 @@ This will produce a file named "n_doses.txt", wich contains the time schedule an
 To generate the figures you will finally have to write (copy) the content (i.e., the dosage) of the file "n_doses.txt" into the file named doses***.txt file. 
 The procedure must be repeated for folders: "FIG3", "FIG5" and "FIG6" folder. 
 You can successively run the Mathematica notebooks included in the folder corresponding to the Figure number. 
-
 To obtain Fig. 2 just run the Mathematica notebook "simulation-of-all-pk.nb" in the folder "FIG2" 
 For all cases, you have to insert the values of \beta (the value of the decay of cancer stem cells) and personalized PK parameters inside the file "personal-parameters.txt" (refer to "Legend-personal-parameters")
 
