@@ -4,7 +4,7 @@ Just lauch the Mathematica notebooks to obtain the plots for ws (i) (steady stat
 
 "plot-opt-target.nb" generate the plots of "Optimal target"
 
-The programs generate also the .txt file contaning AUC, concetration of Imatinib in blood and  the euclidean comulative distance 
+The programs generate also the .txt file contaning AUC, concetration of Imatinib in blood and  the euclidean cumulative distance 
 for every case.
 
 Parameters of the patients in the dataset are in the file "personal-parameters.txt", please refer to "legend-personal-parameters"
