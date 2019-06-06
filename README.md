@@ -38,7 +38,7 @@ For any step, please refer to the readme included in the corresponding folders.
 To run the analysis of the tumor burden variation longitudinal data (original dataset from: Michor, F., et al. "Dynamics of chronic myeloid leukaemia." Nature 435.7046 (2005): 1267.), please run the Mathematica notebook named "Linear-analysis.nb" included in folder: "DATA-ANALISYS". 
 
 2) **Patient-specific PD parameters** 
-To obtain the personalized PD parameters as derived from the data analysis procedure, please run the Mathematica notebook "evaluation-of-EC50.nb" included in the folder "FIG4".  Note that you have to insert the values of \beta (the value of the decay of cancer stem cells) and personalized PK parameters inside the file "personal-parameters.txt" (refer to "Legend-personal-parameters")
+To obtain the personalized PD parameters as derived from the data analysis procedure, please run the Mathematica notebook "evaluation-of-EC50.nb" included in the folder "FIG4".  Note that you have to insert the values of \beta (the value of the decay of cancer stem cells) obtained by data analysis and personalized PK parameters inside the file "personal-parameters.txt" (refer to "Legend-personal-parameters")
 
 3) **Optimization** 
 
