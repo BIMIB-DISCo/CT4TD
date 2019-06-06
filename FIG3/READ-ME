@@ -1,0 +1,6 @@
+Just lauch the Mathematica notebook to obtain the plots for ws (i) (steady state optimization)
+
+"plot-opt-lower.nb" generate the plots of "Lower bound target"
+
+"plot-opt-target.nb" generate the plots of "Optimal target"
+

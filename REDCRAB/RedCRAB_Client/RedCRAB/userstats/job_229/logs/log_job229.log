@@ -1,0 +1,1553 @@
+2018-12-17 12:42:22,295 - INFO - redcrab - main : Starting new RedCRAB optimization run
+2018-12-17 12:42:22,295 - INFO - redcrab - main : Initialization...
+2018-12-17 12:42:22,295 - INFO - redcrab - main : User Job id is: 229
+2018-12-17 12:42:22,295 - INFO - redcrab - main : Internal User Job id is: 1545046942295229
+2018-12-17 12:42:22,295 - INFO - redcrab - main : Manage logging...
+2018-12-17 12:42:22,310 - INFO - redcrab - main : Logging handled
+2018-12-17 12:42:22,310 - INFO - redcrab - main : Establish server connection...
+2018-12-17 12:42:22,310 - INFO - remote_module - ssh_connect: Trying to connect to granat.physik.uni-ulm.de (1/10)
+2018-12-17 12:42:34,905 - INFO - remote_module - ssh_connect: Connected to granat.physik.uni-ulm.de
+2018-12-17 12:42:35,183 - INFO - remote_module - sftp_connect: Opened ftp channel
+2018-12-17 12:42:35,183 - INFO - remote_module - set_ftp_channel_timeout: set ftp channel timeout to: 15
+2018-12-17 12:42:35,183 - INFO - redcrab - main : Checking server status
+2018-12-17 12:42:35,261 - INFO - redcrab - main : Server status ok
+2018-12-17 12:42:35,261 - INFO - redcrab - main : Sending config file to server...
+2018-12-17 12:42:35,430 - INFO - redcrab - main : Config file sent sucessfully...
+2018-12-17 12:42:35,430 - INFO - redcrab - main : Waiting for server answer...
+2018-12-17 12:42:42,394 - INFO - redcrab - main : Server job id is: 28
+2018-12-17 12:42:42,394 - INFO - redcrab - main : Server answer recieved
+2018-12-17 12:42:42,394 - INFO - redcrab - main : Doing final preparations...
+2018-12-17 12:42:44,650 - INFO - redcrab - main : Preparations finished...
+2018-12-17 12:42:44,666 - INFO - redcrab - stopper_instance : Starting stopper instance.
+2018-12-17 12:42:44,666 - INFO - redcrab - opti_instance : Initializing transmission...
+2018-12-17 12:42:49,125 - INFO - redcrab - opti_instance : Starting transmission.
+2018-12-17 12:42:49,156 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:42:49,225 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:42:49,461 - INFO - opti_instance - _read_server_message : Superiteration: 1, NM iteration: 0, NM function evaluation: 1, Total function evaluations: 1
+2018-12-17 12:42:49,461 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:42:49,461 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:42:49,708 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:42:49,708 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:42:49,854 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:42:49,854 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:42:50,380 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:42:50,382 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:42:50,518 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:42:50,518 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:42:50,751 - INFO - opti_instance - _update_user_message : Had to create Msg_u.txt on client side
+2018-12-17 12:42:50,867 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:42:50,867 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:42:51,253 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:42:51,300 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:42:51,369 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:42:51,586 - INFO - opti_instance - _read_server_message : Superiteration: 1, NM iteration: 0, NM function evaluation: 2, Total function evaluations: 2
+2018-12-17 12:42:51,586 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:42:51,586 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:42:51,819 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:42:51,819 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:42:51,955 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:42:51,955 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:42:52,018 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:42:52,018 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:42:52,134 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:42:52,134 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:42:52,420 - WARNING - remote_module - _file_put: OSError: Local file: D:\Work\Redcrab\RedCRAB_Client\bin\..\exchange\exchangejob28\Msg_u.txt or the folder to which the file: ./RedCRAB/exchange/exchangejob28/Msg_u.txt is to be transferred does not exist, exit code 3
+2018-12-17 12:42:52,420 - WARNING - remote_module - file_put: OSError while calling _file_put in try: 1/3
+2018-12-17 12:42:52,520 - INFO - remote_module - file_put: And file: ./RedCRAB/exchange/exchangejob28/Msg_u.txt does not exist (this is okay, as transmission raised an error).
+2018-12-17 12:42:52,837 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:42:52,837 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:42:53,208 - INFO - opti_instance - opti_loop : Record not reached 
+2018-12-17 12:42:53,239 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:42:53,293 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:42:53,525 - INFO - opti_instance - _read_server_message : Superiteration: 1, NM iteration: 0, NM function evaluation: 3, Total function evaluations: 3
+2018-12-17 12:42:53,525 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:42:53,525 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:42:53,726 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:42:53,726 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:42:53,825 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 1
+2018-12-17 12:42:53,880 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 2
+2018-12-17 12:42:53,927 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 3
+2018-12-17 12:42:53,980 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 4
+2018-12-17 12:42:54,065 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:42:54,080 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:42:54,250 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:42:54,250 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:42:54,366 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:42:54,366 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:42:54,667 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:42:54,667 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:42:54,698 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:42:54,850 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:42:55,316 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:42:55,353 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:42:55,419 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:42:55,648 - INFO - opti_instance - _read_server_message : Superiteration: 1, NM iteration: 0, NM function evaluation: 4, Total function evaluations: 4
+2018-12-17 12:42:55,648 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:42:55,648 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:42:55,849 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:42:55,849 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:42:55,972 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:42:55,972 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:42:56,035 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:42:56,035 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:42:56,150 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:42:56,150 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:42:56,452 - WARNING - remote_module - _file_put: OSError: Local file: D:\Work\Redcrab\RedCRAB_Client\bin\..\exchange\exchangejob28\Msg_u.txt or the folder to which the file: ./RedCRAB/exchange/exchangejob28/Msg_u.txt is to be transferred does not exist, exit code 3
+2018-12-17 12:42:56,452 - WARNING - remote_module - file_put: OSError while calling _file_put in try: 1/3
+2018-12-17 12:42:56,543 - INFO - remote_module - file_put: And file: ./RedCRAB/exchange/exchangejob28/Msg_u.txt does not exist (this is okay, as transmission raised an error).
+2018-12-17 12:42:56,854 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:42:56,854 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:42:57,236 - INFO - opti_instance - opti_loop : Record not reached 
+2018-12-17 12:42:57,268 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:42:57,324 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:42:57,572 - INFO - opti_instance - _read_server_message : Superiteration: 1, NM iteration: 1, NM function evaluation: 5, Total function evaluations: 5
+2018-12-17 12:42:57,572 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:42:57,572 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:42:57,787 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:42:57,788 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:42:57,895 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 1
+2018-12-17 12:42:57,942 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 2
+2018-12-17 12:42:58,026 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:42:58,026 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:42:58,211 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:42:58,211 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:42:58,343 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:42:58,343 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:42:58,629 - WARNING - remote_module - _file_put: OSError: Local file: D:\Work\Redcrab\RedCRAB_Client\bin\..\exchange\exchangejob28\Msg_u.txt or the folder to which the file: ./RedCRAB/exchange/exchangejob28/Msg_u.txt is to be transferred does not exist, exit code 3
+2018-12-17 12:42:58,629 - WARNING - remote_module - file_put: OSError while calling _file_put in try: 1/3
+2018-12-17 12:42:58,714 - INFO - remote_module - file_put: And file: ./RedCRAB/exchange/exchangejob28/Msg_u.txt does not exist (this is okay, as transmission raised an error).
+2018-12-17 12:42:59,022 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:42:59,022 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:42:59,411 - INFO - opti_instance - opti_loop : Record not reached 
+2018-12-17 12:42:59,433 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:42:59,495 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:42:59,733 - INFO - opti_instance - _read_server_message : Superiteration: 1, NM iteration: 2, NM function evaluation: 6, Total function evaluations: 6
+2018-12-17 12:42:59,733 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:42:59,733 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:42:59,949 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:42:59,949 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:43:00,049 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 1
+2018-12-17 12:43:00,096 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 2
+2018-12-17 12:43:00,150 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 3
+2018-12-17 12:43:00,222 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:43:00,237 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:43:00,365 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:43:00,365 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:43:00,497 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:43:00,497 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:43:00,804 - WARNING - remote_module - _file_put: OSError: Local file: D:\Work\Redcrab\RedCRAB_Client\bin\..\exchange\exchangejob28\Msg_u.txt or the folder to which the file: ./RedCRAB/exchange/exchangejob28/Msg_u.txt is to be transferred does not exist, exit code 3
+2018-12-17 12:43:00,804 - WARNING - remote_module - file_put: OSError while calling _file_put in try: 1/3
+2018-12-17 12:43:00,886 - INFO - remote_module - file_put: And file: ./RedCRAB/exchange/exchangejob28/Msg_u.txt does not exist (this is okay, as transmission raised an error).
+2018-12-17 12:43:01,200 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:43:01,200 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:43:01,571 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:43:01,586 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:43:01,655 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:43:01,903 - INFO - opti_instance - _read_server_message : Superiteration: 1, NM iteration: 2, NM function evaluation: 7, Total function evaluations: 7
+2018-12-17 12:43:01,903 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:43:01,903 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:43:02,125 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:43:02,125 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:43:02,242 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 1
+2018-12-17 12:43:02,288 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 2
+2018-12-17 12:43:02,373 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:43:02,373 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:43:02,542 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:43:02,542 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:43:02,654 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:43:02,654 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:43:02,944 - WARNING - remote_module - _file_put: OSError: Local file: D:\Work\Redcrab\RedCRAB_Client\bin\..\exchange\exchangejob28\Msg_u.txt or the folder to which the file: ./RedCRAB/exchange/exchangejob28/Msg_u.txt is to be transferred does not exist, exit code 3
+2018-12-17 12:43:02,944 - WARNING - remote_module - file_put: OSError while calling _file_put in try: 1/3
+2018-12-17 12:43:03,029 - INFO - remote_module - file_put: And file: ./RedCRAB/exchange/exchangejob28/Msg_u.txt does not exist (this is okay, as transmission raised an error).
+2018-12-17 12:43:03,330 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:43:03,346 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:43:03,710 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:43:03,726 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:43:03,779 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:43:04,012 - INFO - opti_instance - _read_server_message : Superiteration: 1, NM iteration: 3, NM function evaluation: 8, Total function evaluations: 8
+2018-12-17 12:43:04,012 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:43:04,012 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:43:04,213 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:43:04,213 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:43:04,329 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 1
+2018-12-17 12:43:04,382 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 2
+2018-12-17 12:43:04,429 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 3
+2018-12-17 12:43:04,487 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 4
+2018-12-17 12:43:04,553 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:43:04,568 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:43:04,753 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:43:04,753 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:43:04,885 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:43:04,885 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:43:05,203 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:43:05,203 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:43:05,240 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:43:05,388 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:43:05,891 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:43:05,907 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:43:05,972 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:43:06,195 - INFO - opti_instance - _read_server_message : Superiteration: 1, NM iteration: 3, NM function evaluation: 9, Total function evaluations: 9
+2018-12-17 12:43:06,195 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:43:06,195 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:43:06,405 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:43:06,405 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:43:06,534 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:43:06,545 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:43:06,723 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:43:06,723 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:43:06,834 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:43:06,834 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:43:07,124 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:43:07,128 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:43:07,165 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:43:07,666 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:43:07,681 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:43:07,735 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:43:07,983 - INFO - opti_instance - _read_server_message : Superiteration: 1, NM iteration: 4, NM function evaluation: 10, Total function evaluations: 10
+2018-12-17 12:43:07,983 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:43:07,983 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:43:08,252 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:43:08,268 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:43:08,400 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:43:08,400 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:43:08,585 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:43:08,585 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:43:08,707 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:43:08,709 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:43:09,017 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:43:09,017 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:43:09,055 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:43:09,526 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:43:09,558 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:43:09,629 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:43:09,858 - INFO - opti_instance - _read_server_message : Superiteration: 1, NM iteration: 4, NM function evaluation: 11, Total function evaluations: 11
+2018-12-17 12:43:09,858 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:43:09,858 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:43:10,059 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:43:10,074 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:43:10,207 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:43:10,207 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:43:10,420 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:43:10,420 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:43:10,538 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:43:10,538 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:43:10,838 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:43:10,838 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:43:10,869 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:43:11,340 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:43:11,371 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:43:11,424 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:43:11,673 - INFO - opti_instance - _read_server_message : Superiteration: 2, NM iteration: 0, NM function evaluation: 1, Total function evaluations: 12
+2018-12-17 12:43:11,673 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:43:11,673 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:43:11,874 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:43:11,889 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:43:12,021 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:43:12,021 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:43:12,243 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:43:12,243 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:43:12,355 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:43:12,355 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:43:12,661 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:43:12,661 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:43:12,692 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:43:13,147 - INFO - opti_instance - opti_loop : Record not reached 
+2018-12-17 12:43:13,194 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:43:13,248 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:43:13,495 - INFO - opti_instance - _read_server_message : Superiteration: 2, NM iteration: 0, NM function evaluation: 2, Total function evaluations: 13
+2018-12-17 12:43:13,495 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:43:13,495 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:43:13,711 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:43:13,711 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:43:13,841 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:43:13,841 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:43:14,045 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:43:14,045 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:43:14,155 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:43:14,155 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:43:14,452 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:43:14,452 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:43:14,484 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:43:14,970 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:43:15,001 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:43:15,070 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:43:15,302 - INFO - opti_instance - _read_server_message : Superiteration: 2, NM iteration: 0, NM function evaluation: 3, Total function evaluations: 14
+2018-12-17 12:43:15,302 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:43:15,302 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:43:15,503 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:43:15,503 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:43:15,634 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:43:15,634 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:43:15,872 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:43:15,872 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:43:15,986 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:43:15,986 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:43:16,289 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:43:16,289 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:43:16,321 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:43:16,808 - INFO - opti_instance - opti_loop : Record not reached 
+2018-12-17 12:43:16,839 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:43:16,908 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:43:17,140 - INFO - opti_instance - _read_server_message : Superiteration: 2, NM iteration: 0, NM function evaluation: 4, Total function evaluations: 15
+2018-12-17 12:43:17,140 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:43:17,143 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:43:17,356 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:43:17,356 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:43:17,485 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:43:17,485 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:43:17,694 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:43:17,694 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:43:17,808 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:43:17,808 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:43:18,127 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:43:18,127 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:43:18,165 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:43:18,644 - INFO - opti_instance - opti_loop : Record not reached 
+2018-12-17 12:43:18,660 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:43:18,714 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:43:18,946 - INFO - opti_instance - _read_server_message : Superiteration: 2, NM iteration: 1, NM function evaluation: 5, Total function evaluations: 16
+2018-12-17 12:43:18,946 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:43:18,949 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:43:19,168 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:43:19,168 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:43:19,285 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:43:19,300 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:43:19,520 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:43:19,521 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:43:19,634 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:43:19,634 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:43:19,921 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:43:19,921 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:43:19,958 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:43:20,437 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:43:20,459 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:43:20,522 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:43:20,743 - INFO - opti_instance - _read_server_message : Superiteration: 2, NM iteration: 1, NM function evaluation: 6, Total function evaluations: 17
+2018-12-17 12:43:20,743 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:43:20,744 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:43:20,946 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:43:20,961 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:43:21,093 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:43:21,093 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:43:21,318 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:43:21,318 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:43:21,450 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:43:21,450 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:43:21,744 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:43:21,744 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:43:21,782 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:43:22,262 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:43:22,278 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:43:22,347 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:43:22,574 - INFO - opti_instance - _read_server_message : Superiteration: 2, NM iteration: 2, NM function evaluation: 7, Total function evaluations: 18
+2018-12-17 12:43:22,574 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:43:22,575 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:43:22,786 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:43:22,786 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:43:22,934 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:43:22,934 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:43:23,158 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:43:23,160 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:43:23,283 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:43:23,283 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:43:23,579 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:43:23,579 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:43:23,616 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:43:24,102 - INFO - opti_instance - opti_loop : Record not reached 
+2018-12-17 12:43:24,118 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:43:24,180 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:43:24,420 - INFO - opti_instance - _read_server_message : Superiteration: 2, NM iteration: 3, NM function evaluation: 8, Total function evaluations: 19
+2018-12-17 12:43:24,420 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:43:24,420 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:43:24,636 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:43:24,636 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:43:24,767 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:43:24,767 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:43:25,022 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:43:25,022 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:43:25,154 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:43:25,154 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:43:25,455 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:43:25,455 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:43:25,486 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:43:25,972 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:43:25,987 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:43:26,056 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:43:26,284 - INFO - opti_instance - _read_server_message : Superiteration: 2, NM iteration: 3, NM function evaluation: 9, Total function evaluations: 20
+2018-12-17 12:43:26,284 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:43:26,284 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:43:26,558 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:43:26,558 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:43:26,712 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:43:26,728 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:43:26,960 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:43:26,960 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:43:27,091 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:43:27,091 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:43:27,377 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:43:27,377 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:43:27,764 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:43:27,774 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:43:27,831 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:43:28,068 - INFO - opti_instance - _read_server_message : Superiteration: 3, NM iteration: 0, NM function evaluation: 1, Total function evaluations: 21
+2018-12-17 12:43:28,068 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:43:28,068 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:43:28,295 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:43:28,295 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:43:28,417 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:43:28,433 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:43:28,699 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:43:28,699 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:43:28,814 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:43:28,814 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:43:29,103 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:43:29,103 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:43:29,141 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:43:29,621 - INFO - opti_instance - opti_loop : Record not reached 
+2018-12-17 12:43:29,658 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:43:29,727 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:43:29,960 - INFO - opti_instance - _read_server_message : Superiteration: 3, NM iteration: 0, NM function evaluation: 2, Total function evaluations: 22
+2018-12-17 12:43:29,960 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:43:29,960 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:43:30,161 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:43:30,176 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:43:30,308 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:43:30,308 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:43:30,562 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:43:30,562 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:43:30,678 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:43:30,678 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:43:30,979 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:43:30,979 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:43:31,023 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:43:31,513 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:43:31,551 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:43:31,618 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:43:31,852 - INFO - opti_instance - _read_server_message : Superiteration: 3, NM iteration: 0, NM function evaluation: 3, Total function evaluations: 23
+2018-12-17 12:43:31,852 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:43:31,852 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:43:32,069 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:43:32,069 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:43:32,235 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:43:32,236 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:43:32,470 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:43:32,470 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:43:32,586 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:43:32,586 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:43:32,900 - WARNING - remote_module - _file_put: OSError: Local file: D:\Work\Redcrab\RedCRAB_Client\bin\..\exchange\exchangejob28\Msg_u.txt or the folder to which the file: ./RedCRAB/exchange/exchangejob28/Msg_u.txt is to be transferred does not exist, exit code 3
+2018-12-17 12:43:32,900 - WARNING - remote_module - file_put: OSError while calling _file_put in try: 1/3
+2018-12-17 12:43:32,987 - INFO - remote_module - file_put: And file: ./RedCRAB/exchange/exchangejob28/Msg_u.txt does not exist (this is okay, as transmission raised an error).
+2018-12-17 12:43:33,304 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:43:33,304 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:43:33,689 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:43:33,704 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:43:33,774 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:43:34,006 - INFO - opti_instance - _read_server_message : Superiteration: 3, NM iteration: 0, NM function evaluation: 4, Total function evaluations: 24
+2018-12-17 12:43:34,006 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:43:34,006 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:43:34,223 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:43:34,223 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:43:34,324 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 1
+2018-12-17 12:43:34,377 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 2
+2018-12-17 12:43:34,424 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 3
+2018-12-17 12:43:34,509 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:43:34,509 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:43:34,763 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:43:34,763 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:43:34,895 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:43:34,895 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:43:35,230 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:43:35,233 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:43:35,273 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:43:35,767 - INFO - opti_instance - opti_loop : Record not reached 
+2018-12-17 12:43:35,783 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:43:35,860 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:43:36,084 - INFO - opti_instance - _read_server_message : Superiteration: 3, NM iteration: 1, NM function evaluation: 5, Total function evaluations: 25
+2018-12-17 12:43:36,084 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:43:36,084 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:43:36,316 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:43:36,316 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:43:36,451 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:43:36,452 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:43:36,685 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:43:36,685 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:43:36,817 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:43:36,817 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:43:37,116 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:43:37,116 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:43:37,147 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:43:37,643 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:43:37,673 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:43:37,736 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:43:37,990 - INFO - opti_instance - _read_server_message : Superiteration: 3, NM iteration: 1, NM function evaluation: 6, Total function evaluations: 26
+2018-12-17 12:43:37,990 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:43:37,990 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:43:38,207 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:43:38,207 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:43:38,350 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:43:38,350 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:43:38,591 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:43:38,591 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:43:38,705 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:43:38,705 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:43:39,007 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:43:39,007 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:43:39,393 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:43:39,424 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:43:39,493 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:43:39,725 - INFO - opti_instance - _read_server_message : Superiteration: 3, NM iteration: 2, NM function evaluation: 7, Total function evaluations: 27
+2018-12-17 12:43:39,725 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:43:39,725 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:43:39,942 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:43:39,942 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:43:40,074 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:43:40,078 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:43:40,343 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:43:40,343 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:43:40,474 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:43:40,474 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:43:40,775 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:43:40,775 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:43:40,813 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:43:41,300 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:43:41,316 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:43:41,385 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:43:41,632 - INFO - opti_instance - _read_server_message : Superiteration: 3, NM iteration: 2, NM function evaluation: 8, Total function evaluations: 28
+2018-12-17 12:43:41,632 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:43:41,632 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:43:41,861 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:43:41,864 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:43:42,002 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:43:42,002 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:43:42,258 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:43:42,258 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:43:42,396 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:43:42,396 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:43:42,723 - WARNING - remote_module - _file_put: OSError: Local file: D:\Work\Redcrab\RedCRAB_Client\bin\..\exchange\exchangejob28\Msg_u.txt or the folder to which the file: ./RedCRAB/exchange/exchangejob28/Msg_u.txt is to be transferred does not exist, exit code 3
+2018-12-17 12:43:42,723 - WARNING - remote_module - file_put: OSError while calling _file_put in try: 1/3
+2018-12-17 12:43:42,792 - INFO - remote_module - file_put: And file: ./RedCRAB/exchange/exchangejob28/Msg_u.txt does not exist (this is okay, as transmission raised an error).
+2018-12-17 12:43:43,103 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:43:43,103 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:43:43,489 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:43:43,511 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:43:43,573 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:43:43,812 - INFO - opti_instance - _read_server_message : Superiteration: 4, NM iteration: 0, NM function evaluation: 1, Total function evaluations: 29
+2018-12-17 12:43:43,812 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:43:43,812 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:43:44,036 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:43:44,036 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:43:44,145 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 1
+2018-12-17 12:43:44,214 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 2
+2018-12-17 12:43:44,298 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:43:44,302 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:43:44,576 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:43:44,576 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:43:44,698 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:43:44,698 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:43:44,999 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:43:44,999 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:43:45,046 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:43:45,548 - INFO - opti_instance - opti_loop : Record not reached 
+2018-12-17 12:43:45,595 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:43:45,663 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:43:45,887 - INFO - opti_instance - _read_server_message : Superiteration: 4, NM iteration: 0, NM function evaluation: 2, Total function evaluations: 30
+2018-12-17 12:43:45,887 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:43:45,887 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:43:46,165 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:43:46,165 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:43:46,302 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:43:46,302 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:43:46,565 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:43:46,565 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:43:46,704 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:43:46,707 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:43:47,003 - WARNING - remote_module - _file_put: OSError: Local file: D:\Work\Redcrab\RedCRAB_Client\bin\..\exchange\exchangejob28\Msg_u.txt or the folder to which the file: ./RedCRAB/exchange/exchangejob28/Msg_u.txt is to be transferred does not exist, exit code 3
+2018-12-17 12:43:47,003 - WARNING - remote_module - file_put: OSError while calling _file_put in try: 1/3
+2018-12-17 12:43:47,098 - INFO - remote_module - file_put: And file: ./RedCRAB/exchange/exchangejob28/Msg_u.txt does not exist (this is okay, as transmission raised an error).
+2018-12-17 12:43:47,405 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:43:47,405 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:43:47,785 - INFO - opti_instance - opti_loop : Record not reached 
+2018-12-17 12:43:47,800 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:43:47,870 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:43:48,102 - INFO - opti_instance - _read_server_message : Superiteration: 4, NM iteration: 0, NM function evaluation: 3, Total function evaluations: 31
+2018-12-17 12:43:48,102 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:43:48,102 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:43:48,309 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:43:48,309 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:43:48,425 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 1
+2018-12-17 12:43:48,472 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 2
+2018-12-17 12:43:48,519 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 3
+2018-12-17 12:43:48,601 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:43:48,601 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:43:48,842 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:43:48,842 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:43:48,958 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:43:48,958 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:43:49,275 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:43:49,275 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:43:49,328 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:43:49,815 - INFO - opti_instance - opti_loop : Record not reached 
+2018-12-17 12:43:49,846 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:43:49,915 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:43:50,163 - INFO - opti_instance - _read_server_message : Superiteration: 4, NM iteration: 0, NM function evaluation: 4, Total function evaluations: 32
+2018-12-17 12:43:50,163 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:43:50,163 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:43:50,392 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:43:50,392 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:43:50,533 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:43:50,533 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:43:50,781 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:43:50,781 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:43:50,897 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:43:50,897 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:43:51,220 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:43:51,220 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:43:51,252 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:43:51,769 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:43:51,800 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:43:51,869 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:43:52,102 - INFO - opti_instance - _read_server_message : Superiteration: 4, NM iteration: 1, NM function evaluation: 5, Total function evaluations: 33
+2018-12-17 12:43:52,102 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:43:52,102 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:43:52,356 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:43:52,356 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:43:52,504 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:43:52,519 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:43:52,759 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:43:52,759 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:43:52,890 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:43:52,890 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:43:53,223 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:43:53,223 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:43:53,260 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:43:53,389 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:43:53,920 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:43:53,936 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:43:54,006 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:43:54,247 - INFO - opti_instance - _read_server_message : Superiteration: 4, NM iteration: 1, NM function evaluation: 6, Total function evaluations: 34
+2018-12-17 12:43:54,247 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:43:54,247 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:43:54,517 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:43:54,518 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:43:54,680 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:43:54,680 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:43:54,988 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:43:54,988 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:43:55,134 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:43:55,135 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:43:55,463 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:43:55,463 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:43:55,501 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:43:56,019 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:43:56,050 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:43:56,119 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:43:56,355 - INFO - opti_instance - _read_server_message : Superiteration: 4, NM iteration: 2, NM function evaluation: 7, Total function evaluations: 35
+2018-12-17 12:43:56,355 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:43:56,357 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:43:56,606 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:43:56,606 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:43:56,753 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:43:56,753 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:43:57,042 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:43:57,042 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:43:57,154 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:43:57,154 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:43:57,470 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:43:57,470 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:43:57,509 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:43:57,656 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:43:58,130 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:43:58,149 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:43:58,211 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:43:58,442 - INFO - opti_instance - _read_server_message : Superiteration: 4, NM iteration: 2, NM function evaluation: 8, Total function evaluations: 36
+2018-12-17 12:43:58,442 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:43:58,442 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:43:58,681 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:43:58,696 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:43:58,829 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:43:58,829 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:43:59,092 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:43:59,094 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:43:59,208 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:43:59,208 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:43:59,514 - WARNING - remote_module - _file_put: OSError: Local file: D:\Work\Redcrab\RedCRAB_Client\bin\..\exchange\exchangejob28\Msg_u.txt or the folder to which the file: ./RedCRAB/exchange/exchangejob28/Msg_u.txt is to be transferred does not exist, exit code 3
+2018-12-17 12:43:59,514 - WARNING - remote_module - file_put: OSError while calling _file_put in try: 1/3
+2018-12-17 12:43:59,615 - INFO - remote_module - file_put: And file: ./RedCRAB/exchange/exchangejob28/Msg_u.txt does not exist (this is okay, as transmission raised an error).
+2018-12-17 12:43:59,932 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:43:59,932 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:44:00,318 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:44:00,333 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:44:00,402 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:44:00,634 - INFO - opti_instance - _read_server_message : Superiteration: 5, NM iteration: 0, NM function evaluation: 1, Total function evaluations: 37
+2018-12-17 12:44:00,634 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:44:00,634 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:44:00,872 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:44:00,872 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:44:00,989 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 1
+2018-12-17 12:44:01,036 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 2
+2018-12-17 12:44:01,089 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 3
+2018-12-17 12:44:01,170 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:44:01,173 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:44:01,458 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:44:01,458 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:44:01,590 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:44:01,590 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:44:01,892 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:44:01,892 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:44:01,923 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:44:02,386 - INFO - opti_instance - opti_loop : Record not reached 
+2018-12-17 12:44:02,433 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:44:02,494 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:44:02,741 - INFO - opti_instance - _read_server_message : Superiteration: 5, NM iteration: 0, NM function evaluation: 2, Total function evaluations: 38
+2018-12-17 12:44:02,741 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:44:02,741 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:44:02,986 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:44:02,986 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:44:03,127 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:44:03,127 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:44:03,396 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:44:03,396 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:44:03,528 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:44:03,528 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:44:03,813 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:44:03,813 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:44:03,844 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:44:04,316 - INFO - opti_instance - opti_loop : Record not reached 
+2018-12-17 12:44:04,332 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:44:04,401 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:44:04,633 - INFO - opti_instance - _read_server_message : Superiteration: 5, NM iteration: 0, NM function evaluation: 3, Total function evaluations: 39
+2018-12-17 12:44:04,633 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:44:04,633 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:44:04,880 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:44:04,880 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:44:05,002 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:44:05,017 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:44:05,303 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:44:05,303 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:44:05,403 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:44:05,403 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:44:05,704 - WARNING - remote_module - _file_put: OSError: Local file: D:\Work\Redcrab\RedCRAB_Client\bin\..\exchange\exchangejob28\Msg_u.txt or the folder to which the file: ./RedCRAB/exchange/exchangejob28/Msg_u.txt is to be transferred does not exist, exit code 3
+2018-12-17 12:44:05,704 - WARNING - remote_module - file_put: OSError while calling _file_put in try: 1/3
+2018-12-17 12:44:05,788 - INFO - remote_module - file_put: And file: ./RedCRAB/exchange/exchangejob28/Msg_u.txt does not exist (this is okay, as transmission raised an error).
+2018-12-17 12:44:06,106 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:44:06,106 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:44:06,507 - INFO - opti_instance - opti_loop : Record not reached 
+2018-12-17 12:44:06,523 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:44:06,592 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:44:06,823 - INFO - opti_instance - _read_server_message : Superiteration: 5, NM iteration: 0, NM function evaluation: 4, Total function evaluations: 40
+2018-12-17 12:44:06,823 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:44:06,823 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:44:07,093 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:44:07,093 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:44:07,191 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 1
+2018-12-17 12:44:07,238 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 2
+2018-12-17 12:44:07,309 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:44:07,324 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:44:07,605 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:44:07,605 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:44:07,711 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:44:07,711 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:44:08,013 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:44:08,013 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:44:08,060 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:44:08,546 - INFO - opti_instance - opti_loop : Record not reached 
+2018-12-17 12:44:08,562 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:44:08,631 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:44:08,864 - INFO - opti_instance - _read_server_message : Superiteration: 5, NM iteration: 1, NM function evaluation: 5, Total function evaluations: 41
+2018-12-17 12:44:08,864 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:44:08,864 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:44:09,109 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:44:09,118 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:44:09,235 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:44:09,235 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:44:09,510 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:44:09,510 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:44:09,630 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:44:09,633 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:44:09,900 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:44:09,915 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:44:09,938 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:44:10,418 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:44:10,440 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:44:10,502 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:44:10,741 - INFO - opti_instance - _read_server_message : Superiteration: 5, NM iteration: 1, NM function evaluation: 6, Total function evaluations: 42
+2018-12-17 12:44:10,741 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:44:10,741 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:44:10,989 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:44:10,989 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:44:11,121 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:44:11,121 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:44:11,393 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:44:11,393 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:44:11,519 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:44:11,519 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:44:11,807 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:44:11,807 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:44:12,193 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:44:12,224 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:44:12,278 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:44:12,510 - INFO - opti_instance - _read_server_message : Superiteration: 5, NM iteration: 2, NM function evaluation: 7, Total function evaluations: 43
+2018-12-17 12:44:12,510 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:44:12,510 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:44:12,748 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:44:12,764 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:44:12,880 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:44:12,880 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:44:13,144 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:44:13,144 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:44:13,256 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:44:13,256 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:44:13,558 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:44:13,558 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:44:13,589 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:44:14,076 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:44:14,091 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:44:14,145 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:44:14,377 - INFO - opti_instance - _read_server_message : Superiteration: 5, NM iteration: 2, NM function evaluation: 8, Total function evaluations: 44
+2018-12-17 12:44:14,377 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:44:14,377 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:44:14,610 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:44:14,610 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:44:14,748 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:44:14,748 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:44:15,047 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:44:15,048 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:44:15,169 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:44:15,169 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:44:15,467 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:44:15,479 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:44:15,839 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:44:15,869 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:44:15,929 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:44:16,169 - INFO - opti_instance - _read_server_message : Superiteration: 6, NM iteration: 0, NM function evaluation: 1, Total function evaluations: 45
+2018-12-17 12:44:16,169 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:44:16,169 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:44:16,419 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:44:16,419 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:44:16,549 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:44:16,549 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:44:16,842 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:44:16,842 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:44:16,969 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:44:16,969 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:44:17,279 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:44:17,279 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:44:17,639 - INFO - opti_instance - opti_loop : Record not reached 
+2018-12-17 12:44:17,669 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:44:17,738 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:44:17,969 - INFO - opti_instance - _read_server_message : Superiteration: 6, NM iteration: 0, NM function evaluation: 2, Total function evaluations: 46
+2018-12-17 12:44:17,969 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:44:17,969 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:44:18,202 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:44:18,202 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:44:18,350 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:44:18,350 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:44:18,635 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:44:18,635 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:44:18,750 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:44:18,750 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:44:19,050 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:44:19,050 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:44:19,097 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:44:19,584 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:44:19,599 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:44:19,652 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:44:19,879 - INFO - opti_instance - _read_server_message : Superiteration: 6, NM iteration: 0, NM function evaluation: 3, Total function evaluations: 47
+2018-12-17 12:44:19,879 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:44:19,879 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:44:20,123 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:44:20,123 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:44:20,254 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:44:20,254 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:44:20,539 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:44:20,539 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:44:20,655 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:44:20,655 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:44:20,956 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:44:20,956 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:44:21,326 - INFO - opti_instance - opti_loop : Record not reached 
+2018-12-17 12:44:21,373 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:44:21,442 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:44:21,663 - INFO - opti_instance - _read_server_message : Superiteration: 6, NM iteration: 0, NM function evaluation: 4, Total function evaluations: 48
+2018-12-17 12:44:21,663 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:44:21,663 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:44:21,890 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:44:21,890 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:44:22,029 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:44:22,044 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:44:22,345 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:44:22,345 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:44:22,461 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:44:22,461 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:44:22,762 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:44:22,778 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:44:23,133 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:44:23,164 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:44:23,233 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:44:23,449 - INFO - opti_instance - _read_server_message : Superiteration: 6, NM iteration: 1, NM function evaluation: 5, Total function evaluations: 49
+2018-12-17 12:44:23,449 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:44:23,449 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:44:23,765 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:44:23,765 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:44:23,901 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:44:23,901 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:44:24,182 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:44:24,182 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:44:24,298 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:44:24,298 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:44:24,583 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:44:24,583 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:44:24,937 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:44:24,969 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:44:25,038 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:44:25,254 - INFO - opti_instance - _read_server_message : Superiteration: 6, NM iteration: 1, NM function evaluation: 6, Total function evaluations: 50
+2018-12-17 12:44:25,254 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:44:25,254 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:44:25,486 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:44:25,486 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:44:25,617 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:44:25,624 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:44:25,898 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:44:25,898 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:44:26,018 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:44:26,018 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:44:26,325 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:44:26,325 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:44:26,357 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:44:26,827 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:44:26,858 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:44:26,927 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:44:27,159 - INFO - opti_instance - _read_server_message : Superiteration: 6, NM iteration: 2, NM function evaluation: 7, Total function evaluations: 51
+2018-12-17 12:44:27,159 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:44:27,159 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:44:27,391 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:44:27,391 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:44:27,526 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:44:27,531 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:44:27,824 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:44:27,824 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:44:27,931 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:44:27,931 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:44:28,232 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:44:28,232 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:44:28,263 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:44:28,727 - INFO - opti_instance - opti_loop : Record not reached 
+2018-12-17 12:44:28,749 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:44:28,812 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:44:29,051 - INFO - opti_instance - _read_server_message : Superiteration: 6, NM iteration: 3, NM function evaluation: 8, Total function evaluations: 52
+2018-12-17 12:44:29,051 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:44:29,051 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:44:29,298 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:44:29,298 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:44:29,430 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:44:29,430 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:44:29,730 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:44:29,730 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:44:29,862 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:44:29,862 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:44:30,156 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:44:30,156 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:44:30,194 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:44:30,341 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:44:30,811 - INFO - opti_instance - opti_loop : Record not reached 
+2018-12-17 12:44:30,843 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:44:30,912 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:44:31,143 - INFO - opti_instance - _read_server_message : Superiteration: 7, NM iteration: 0, NM function evaluation: 1, Total function evaluations: 53
+2018-12-17 12:44:31,143 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:44:31,143 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:44:31,382 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:44:31,382 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:44:31,514 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:44:31,529 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:44:31,830 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:44:31,830 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:44:31,943 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:44:31,943 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:44:32,241 - WARNING - remote_module - _file_put: OSError: Local file: D:\Work\Redcrab\RedCRAB_Client\bin\..\exchange\exchangejob28\Msg_u.txt or the folder to which the file: ./RedCRAB/exchange/exchangejob28/Msg_u.txt is to be transferred does not exist, exit code 3
+2018-12-17 12:44:32,241 - WARNING - remote_module - file_put: OSError while calling _file_put in try: 1/3
+2018-12-17 12:44:32,341 - INFO - remote_module - file_put: And file: ./RedCRAB/exchange/exchangejob28/Msg_u.txt does not exist (this is okay, as transmission raised an error).
+2018-12-17 12:44:32,642 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:44:32,642 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:44:33,012 - INFO - opti_instance - opti_loop : Record not reached 
+2018-12-17 12:44:33,058 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:44:33,125 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:44:33,343 - INFO - opti_instance - _read_server_message : Superiteration: 7, NM iteration: 0, NM function evaluation: 2, Total function evaluations: 54
+2018-12-17 12:44:33,343 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:44:33,343 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:44:33,591 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:44:33,591 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:44:33,691 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 1
+2018-12-17 12:44:33,751 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 2
+2018-12-17 12:44:33,813 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 3
+2018-12-17 12:44:33,892 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:44:33,892 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:44:34,160 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:44:34,160 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:44:34,276 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:44:34,276 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:44:34,561 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:44:34,561 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:44:34,599 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:44:35,078 - INFO - opti_instance - opti_loop : Record not reached 
+2018-12-17 12:44:35,116 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:44:35,178 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:44:35,417 - INFO - opti_instance - _read_server_message : Superiteration: 7, NM iteration: 0, NM function evaluation: 3, Total function evaluations: 55
+2018-12-17 12:44:35,417 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:44:35,417 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:44:35,664 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:44:35,664 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:44:35,796 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:44:35,796 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:44:36,065 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:44:36,065 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:44:36,169 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:44:36,169 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:44:36,466 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:44:36,466 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:44:36,519 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:44:36,967 - INFO - opti_instance - opti_loop : Record not reached 
+2018-12-17 12:44:37,021 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:44:37,084 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:44:37,323 - INFO - opti_instance - _read_server_message : Superiteration: 7, NM iteration: 0, NM function evaluation: 4, Total function evaluations: 56
+2018-12-17 12:44:37,323 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:44:37,324 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:44:37,553 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:44:37,553 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:44:37,685 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:44:37,685 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:44:37,957 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:44:37,957 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:44:38,070 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:44:38,070 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:44:38,364 - WARNING - remote_module - _file_put: OSError: Local file: D:\Work\Redcrab\RedCRAB_Client\bin\..\exchange\exchangejob28\Msg_u.txt or the folder to which the file: ./RedCRAB/exchange/exchangejob28/Msg_u.txt is to be transferred does not exist, exit code 3
+2018-12-17 12:44:38,364 - WARNING - remote_module - file_put: OSError while calling _file_put in try: 1/3
+2018-12-17 12:44:38,449 - INFO - remote_module - file_put: And file: ./RedCRAB/exchange/exchangejob28/Msg_u.txt does not exist (this is okay, as transmission raised an error).
+2018-12-17 12:44:38,767 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:44:38,767 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:44:39,121 - INFO - opti_instance - opti_loop : Record not reached 
+2018-12-17 12:44:39,152 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:44:39,219 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:44:39,437 - INFO - opti_instance - _read_server_message : Superiteration: 7, NM iteration: 1, NM function evaluation: 5, Total function evaluations: 57
+2018-12-17 12:44:39,437 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:44:39,437 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:44:39,675 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:44:39,675 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:44:39,772 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 1
+2018-12-17 12:44:39,816 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 2
+2018-12-17 12:44:39,863 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 3
+2018-12-17 12:44:39,907 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 4
+2018-12-17 12:44:39,976 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:44:39,976 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:44:40,255 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:44:40,255 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:44:40,389 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:44:40,390 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:44:40,673 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:44:40,679 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:44:40,710 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:44:41,180 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:44:41,227 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:44:41,280 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:44:41,528 - INFO - opti_instance - _read_server_message : Superiteration: 7, NM iteration: 1, NM function evaluation: 6, Total function evaluations: 58
+2018-12-17 12:44:41,528 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:44:41,528 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:44:41,776 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:44:41,776 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:44:41,898 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:44:41,914 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:44:42,185 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:44:42,186 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:44:42,310 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:44:42,310 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:44:42,611 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:44:42,611 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:44:42,990 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:44:43,027 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:44:43,096 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:44:43,328 - INFO - opti_instance - _read_server_message : Superiteration: 7, NM iteration: 2, NM function evaluation: 7, Total function evaluations: 59
+2018-12-17 12:44:43,328 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:44:43,328 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:44:43,598 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:44:43,598 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:44:43,745 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:44:43,745 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:44:44,045 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:44:44,046 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:44:44,162 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:44:44,162 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:44:44,464 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:44:44,464 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:44:44,819 - INFO - opti_instance - opti_loop : Record not reached 
+2018-12-17 12:44:44,850 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:44:44,919 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:44:45,152 - INFO - opti_instance - _read_server_message : Superiteration: 7, NM iteration: 3, NM function evaluation: 8, Total function evaluations: 60
+2018-12-17 12:44:45,152 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:44:45,153 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:44:45,384 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:44:45,384 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:44:45,506 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:44:45,506 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:44:45,783 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:44:45,784 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:44:45,900 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:44:45,900 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:44:46,185 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:44:46,185 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:44:46,223 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:44:46,702 - INFO - opti_instance - opti_loop : Record not reached 
+2018-12-17 12:44:46,724 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:44:46,787 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:44:47,025 - INFO - opti_instance - _read_server_message : Superiteration: 8, NM iteration: 0, NM function evaluation: 1, Total function evaluations: 61
+2018-12-17 12:44:47,025 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:44:47,025 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:44:47,271 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:44:47,271 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:44:47,403 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:44:47,403 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:44:47,725 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:44:47,725 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:44:47,859 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:44:47,859 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:44:48,168 - WARNING - remote_module - _file_put: OSError: Local file: D:\Work\Redcrab\RedCRAB_Client\bin\..\exchange\exchangejob28\Msg_u.txt or the folder to which the file: ./RedCRAB/exchange/exchangejob28/Msg_u.txt is to be transferred does not exist, exit code 3
+2018-12-17 12:44:48,168 - WARNING - remote_module - file_put: OSError while calling _file_put in try: 1/3
+2018-12-17 12:44:48,234 - INFO - remote_module - file_put: And file: ./RedCRAB/exchange/exchangejob28/Msg_u.txt does not exist (this is okay, as transmission raised an error).
+2018-12-17 12:44:48,559 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:44:48,559 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:44:48,913 - INFO - opti_instance - opti_loop : Record not reached 
+2018-12-17 12:44:48,944 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:44:49,013 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:44:49,245 - INFO - opti_instance - _read_server_message : Superiteration: 8, NM iteration: 0, NM function evaluation: 2, Total function evaluations: 62
+2018-12-17 12:44:49,245 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:44:49,245 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:44:49,482 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:44:49,482 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:44:49,592 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 1
+2018-12-17 12:44:49,646 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 2
+2018-12-17 12:44:49,693 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 3
+2018-12-17 12:44:49,778 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:44:49,778 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:44:50,052 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:44:50,052 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:44:50,178 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:44:50,178 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:44:50,495 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:44:50,495 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:44:50,533 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:44:51,018 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:44:51,049 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:44:51,118 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:44:51,350 - INFO - opti_instance - _read_server_message : Superiteration: 8, NM iteration: 0, NM function evaluation: 3, Total function evaluations: 63
+2018-12-17 12:44:51,350 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:44:51,350 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:44:51,582 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:44:51,582 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:44:51,720 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:44:51,720 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:44:52,015 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:44:52,015 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:44:52,121 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:44:52,137 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:44:52,454 - WARNING - remote_module - _file_put: OSError: Local file: D:\Work\Redcrab\RedCRAB_Client\bin\..\exchange\exchangejob28\Msg_u.txt or the folder to which the file: ./RedCRAB/exchange/exchangejob28/Msg_u.txt is to be transferred does not exist, exit code 3
+2018-12-17 12:44:52,454 - WARNING - remote_module - file_put: OSError while calling _file_put in try: 1/3
+2018-12-17 12:44:52,538 - INFO - remote_module - file_put: And file: ./RedCRAB/exchange/exchangejob28/Msg_u.txt does not exist (this is okay, as transmission raised an error).
+2018-12-17 12:44:52,857 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:44:52,857 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:44:53,225 - INFO - opti_instance - opti_loop : Record not reached 
+2018-12-17 12:44:53,257 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:44:53,325 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:44:53,558 - INFO - opti_instance - _read_server_message : Superiteration: 8, NM iteration: 0, NM function evaluation: 4, Total function evaluations: 64
+2018-12-17 12:44:53,558 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:44:53,558 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:44:53,805 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:44:53,805 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:44:53,895 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 1
+2018-12-17 12:44:53,942 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 2
+2018-12-17 12:44:54,005 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 3
+2018-12-17 12:44:54,089 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:44:54,089 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:44:54,359 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:44:54,359 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:44:54,474 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:44:54,474 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:44:54,782 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:44:54,782 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:44:54,817 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:44:55,268 - INFO - opti_instance - opti_loop : Record not reached 
+2018-12-17 12:44:55,300 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:44:55,369 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:44:55,601 - INFO - opti_instance - _read_server_message : Superiteration: 8, NM iteration: 1, NM function evaluation: 5, Total function evaluations: 65
+2018-12-17 12:44:55,601 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:44:55,601 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:44:55,833 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:44:55,848 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:44:55,971 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:44:55,986 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:44:56,272 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:44:56,272 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:44:56,403 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:44:56,403 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:44:56,704 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:44:56,704 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:44:57,058 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:44:57,089 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:44:57,158 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:44:57,391 - INFO - opti_instance - _read_server_message : Superiteration: 8, NM iteration: 1, NM function evaluation: 6, Total function evaluations: 66
+2018-12-17 12:44:57,391 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:44:57,391 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:44:57,623 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:44:57,623 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:44:57,761 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:44:57,761 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:44:58,055 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:44:58,055 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:44:58,162 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:44:58,162 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:44:58,478 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:44:58,478 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:44:58,509 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:44:58,979 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:44:59,011 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:44:59,064 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:44:59,311 - INFO - opti_instance - _read_server_message : Superiteration: 8, NM iteration: 2, NM function evaluation: 7, Total function evaluations: 67
+2018-12-17 12:44:59,311 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:44:59,311 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:44:59,558 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:44:59,564 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:44:59,712 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:44:59,712 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:44:59,997 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:44:59,997 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:45:00,113 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:45:00,113 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:45:00,414 - WARNING - remote_module - _file_put: OSError: Local file: D:\Work\Redcrab\RedCRAB_Client\bin\..\exchange\exchangejob28\Msg_u.txt or the folder to which the file: ./RedCRAB/exchange/exchangejob28/Msg_u.txt is to be transferred does not exist, exit code 3
+2018-12-17 12:45:00,414 - WARNING - remote_module - file_put: OSError while calling _file_put in try: 1/3
+2018-12-17 12:45:00,514 - INFO - remote_module - file_put: And file: ./RedCRAB/exchange/exchangejob28/Msg_u.txt does not exist (this is okay, as transmission raised an error).
+2018-12-17 12:45:00,833 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:45:00,833 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:45:01,184 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:45:01,216 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:45:01,284 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:45:01,517 - INFO - opti_instance - _read_server_message : Superiteration: 8, NM iteration: 2, NM function evaluation: 8, Total function evaluations: 68
+2018-12-17 12:45:01,517 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:45:01,517 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:45:01,802 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:45:01,802 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:45:01,902 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 1
+2018-12-17 12:45:01,965 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 2
+2018-12-17 12:45:02,050 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:45:02,050 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:45:02,350 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:45:02,350 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:45:02,472 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:45:02,472 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:45:02,789 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:45:02,789 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:45:02,820 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:45:03,321 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:45:03,353 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:45:03,422 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:45:03,654 - INFO - opti_instance - _read_server_message : Superiteration: 9, NM iteration: 0, NM function evaluation: 1, Total function evaluations: 69
+2018-12-17 12:45:03,654 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:45:03,654 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:45:03,901 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:45:03,901 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:45:04,039 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:45:04,039 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:45:04,353 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:45:04,353 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:45:04,467 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:45:04,467 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:45:04,771 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:45:04,771 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:45:04,802 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:45:04,949 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:45:05,435 - INFO - opti_instance - opti_loop : Record not reached 
+2018-12-17 12:45:05,472 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:45:05,535 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:45:05,774 - INFO - opti_instance - _read_server_message : Superiteration: 9, NM iteration: 0, NM function evaluation: 2, Total function evaluations: 70
+2018-12-17 12:45:05,774 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:45:05,774 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:45:06,021 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:45:06,021 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:45:06,153 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:45:06,153 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:45:06,438 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:45:06,438 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:45:06,553 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:45:06,553 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:45:06,862 - WARNING - remote_module - _file_put: OSError: Local file: D:\Work\Redcrab\RedCRAB_Client\bin\..\exchange\exchangejob28\Msg_u.txt or the folder to which the file: ./RedCRAB/exchange/exchangejob28/Msg_u.txt is to be transferred does not exist, exit code 3
+2018-12-17 12:45:06,862 - WARNING - remote_module - file_put: OSError while calling _file_put in try: 1/3
+2018-12-17 12:45:06,952 - INFO - remote_module - file_put: And file: ./RedCRAB/exchange/exchangejob28/Msg_u.txt does not exist (this is okay, as transmission raised an error).
+2018-12-17 12:45:07,278 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:45:07,278 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:45:07,641 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:45:07,657 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:45:07,726 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:45:07,958 - INFO - opti_instance - _read_server_message : Superiteration: 9, NM iteration: 0, NM function evaluation: 3, Total function evaluations: 71
+2018-12-17 12:45:07,958 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:45:07,958 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:45:08,211 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:45:08,211 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:45:08,312 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 1
+2018-12-17 12:45:08,381 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 2
+2018-12-17 12:45:08,459 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:45:08,465 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:45:08,758 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:45:08,758 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:45:08,893 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:45:08,893 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:45:09,219 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:45:09,219 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:45:09,264 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:45:09,737 - INFO - opti_instance - opti_loop : Record not reached 
+2018-12-17 12:45:09,752 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:45:09,806 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:45:10,038 - INFO - opti_instance - _read_server_message : Superiteration: 9, NM iteration: 0, NM function evaluation: 4, Total function evaluations: 72
+2018-12-17 12:45:10,038 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:45:10,038 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:45:10,276 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:45:10,276 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:45:10,428 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:45:10,433 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:45:10,740 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:45:10,740 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:45:10,856 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:45:10,856 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:45:11,146 - WARNING - remote_module - _file_put: OSError: Local file: D:\Work\Redcrab\RedCRAB_Client\bin\..\exchange\exchangejob28\Msg_u.txt or the folder to which the file: ./RedCRAB/exchange/exchangejob28/Msg_u.txt is to be transferred does not exist, exit code 3
+2018-12-17 12:45:11,146 - WARNING - remote_module - file_put: OSError while calling _file_put in try: 1/3
+2018-12-17 12:45:11,241 - INFO - remote_module - file_put: And file: ./RedCRAB/exchange/exchangejob28/Msg_u.txt does not exist (this is okay, as transmission raised an error).
+2018-12-17 12:45:11,557 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:45:11,563 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:45:11,927 - INFO - opti_instance - opti_loop : Record not reached 
+2018-12-17 12:45:11,942 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:45:12,011 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:45:12,244 - INFO - opti_instance - _read_server_message : Superiteration: 9, NM iteration: 1, NM function evaluation: 5, Total function evaluations: 73
+2018-12-17 12:45:12,245 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:45:12,247 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:45:12,481 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:45:12,481 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:45:12,598 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 1
+2018-12-17 12:45:12,644 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 2
+2018-12-17 12:45:12,697 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 3
+2018-12-17 12:45:12,766 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:45:12,782 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:45:13,077 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:45:13,077 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:45:13,191 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:45:13,191 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:45:13,500 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:45:13,500 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:45:13,531 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:45:14,012 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:45:14,043 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:45:14,117 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:45:14,344 - INFO - opti_instance - _read_server_message : Superiteration: 9, NM iteration: 1, NM function evaluation: 6, Total function evaluations: 74
+2018-12-17 12:45:14,344 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:45:14,344 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:45:14,598 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:45:14,598 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:45:14,716 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:45:14,716 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:45:15,011 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:45:15,011 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:45:15,136 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:45:15,136 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:45:15,475 - WARNING - remote_module - _file_put: OSError: Local file: D:\Work\Redcrab\RedCRAB_Client\bin\..\exchange\exchangejob28\Msg_u.txt or the folder to which the file: ./RedCRAB/exchange/exchangejob28/Msg_u.txt is to be transferred does not exist, exit code 3
+2018-12-17 12:45:15,475 - WARNING - remote_module - file_put: OSError while calling _file_put in try: 1/3
+2018-12-17 12:45:15,576 - INFO - remote_module - file_put: And file: ./RedCRAB/exchange/exchangejob28/Msg_u.txt does not exist (this is okay, as transmission raised an error).
+2018-12-17 12:45:15,893 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:45:15,894 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:45:16,277 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:45:16,309 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:45:16,378 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:45:16,610 - INFO - opti_instance - _read_server_message : Superiteration: 9, NM iteration: 2, NM function evaluation: 7, Total function evaluations: 75
+2018-12-17 12:45:16,610 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:45:16,610 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:45:16,847 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:45:16,847 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:45:16,945 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 1
+2018-12-17 12:45:16,994 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 2
+2018-12-17 12:45:17,064 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:45:17,064 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:45:17,360 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:45:17,362 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:45:17,476 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:45:17,476 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:45:17,781 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:45:17,781 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:45:17,818 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:45:18,298 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:45:18,320 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:45:18,380 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:45:18,614 - INFO - opti_instance - _read_server_message : Superiteration: 9, NM iteration: 2, NM function evaluation: 8, Total function evaluations: 76
+2018-12-17 12:45:18,614 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:45:18,614 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:45:18,852 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:45:18,852 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:45:18,992 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:45:18,992 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:45:19,300 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:45:19,300 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:45:19,416 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:45:19,416 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:45:19,722 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:45:19,722 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:45:20,123 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:45:20,139 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:45:20,197 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:45:20,441 - INFO - opti_instance - _read_server_message : Superiteration: 10, NM iteration: 0, NM function evaluation: 1, Total function evaluations: 77
+2018-12-17 12:45:20,441 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:45:20,441 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:45:20,766 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:45:20,766 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:45:20,906 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:45:20,906 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:45:21,202 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:45:21,202 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:45:21,343 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:45:21,344 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:45:21,638 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:45:21,638 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:45:21,669 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:45:21,822 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:45:22,301 - INFO - opti_instance - opti_loop : Record not reached 
+2018-12-17 12:45:22,339 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:45:22,408 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:45:22,640 - INFO - opti_instance - _read_server_message : Superiteration: 10, NM iteration: 0, NM function evaluation: 2, Total function evaluations: 78
+2018-12-17 12:45:22,640 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:45:22,640 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:45:22,887 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:45:22,887 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:45:23,009 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:45:23,009 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:45:23,304 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:45:23,304 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:45:23,425 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:45:23,441 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:45:23,745 - WARNING - remote_module - _file_put: OSError: Local file: D:\Work\Redcrab\RedCRAB_Client\bin\..\exchange\exchangejob28\Msg_u.txt or the folder to which the file: ./RedCRAB/exchange/exchangejob28/Msg_u.txt is to be transferred does not exist, exit code 3
+2018-12-17 12:45:23,746 - WARNING - remote_module - file_put: OSError while calling _file_put in try: 1/3
+2018-12-17 12:45:23,842 - INFO - remote_module - file_put: And file: ./RedCRAB/exchange/exchangejob28/Msg_u.txt does not exist (this is okay, as transmission raised an error).
+2018-12-17 12:45:24,159 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:45:24,159 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:45:24,529 - INFO - opti_instance - opti_loop : Record not reached 
+2018-12-17 12:45:24,561 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:45:24,629 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:45:24,861 - INFO - opti_instance - _read_server_message : Superiteration: 10, NM iteration: 0, NM function evaluation: 3, Total function evaluations: 79
+2018-12-17 12:45:24,861 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:45:24,861 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:45:25,115 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:45:25,115 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:45:25,209 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 1
+2018-12-17 12:45:25,262 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 2
+2018-12-17 12:45:25,331 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:45:25,331 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:45:25,618 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:45:25,618 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:45:25,730 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:45:25,730 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:45:26,019 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:45:26,019 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:45:26,058 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:45:26,536 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:45:26,575 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:45:26,643 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:45:26,876 - INFO - opti_instance - _read_server_message : Superiteration: 10, NM iteration: 0, NM function evaluation: 4, Total function evaluations: 80
+2018-12-17 12:45:26,876 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:45:26,876 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:45:27,108 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:45:27,123 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:45:27,247 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:45:27,247 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:45:27,563 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:45:27,563 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:45:27,695 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:45:27,695 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:45:28,015 - WARNING - remote_module - _file_put: OSError: Local file: D:\Work\Redcrab\RedCRAB_Client\bin\..\exchange\exchangejob28\Msg_u.txt or the folder to which the file: ./RedCRAB/exchange/exchangejob28/Msg_u.txt is to be transferred does not exist, exit code 3
+2018-12-17 12:45:28,015 - WARNING - remote_module - file_put: OSError while calling _file_put in try: 1/3
+2018-12-17 12:45:28,111 - INFO - remote_module - file_put: And file: ./RedCRAB/exchange/exchangejob28/Msg_u.txt does not exist (this is okay, as transmission raised an error).
+2018-12-17 12:45:28,442 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:45:28,442 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:45:28,849 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:45:28,881 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:45:28,966 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:45:29,267 - INFO - opti_instance - _read_server_message : Superiteration: 10, NM iteration: 1, NM function evaluation: 5, Total function evaluations: 81
+2018-12-17 12:45:29,267 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:45:29,267 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:45:29,600 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:45:29,600 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:45:29,700 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 1
+2018-12-17 12:45:29,746 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 2
+2018-12-17 12:45:29,792 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 3
+2018-12-17 12:45:29,851 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 4
+2018-12-17 12:45:29,931 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:45:29,931 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:45:30,232 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:45:30,254 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:45:30,415 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:45:30,415 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:45:30,802 - WARNING - remote_module - _file_put: OSError: Local file: D:\Work\Redcrab\RedCRAB_Client\bin\..\exchange\exchangejob28\Msg_u.txt or the folder to which the file: ./RedCRAB/exchange/exchangejob28/Msg_u.txt is to be transferred does not exist, exit code 3
+2018-12-17 12:45:30,802 - WARNING - remote_module - file_put: OSError while calling _file_put in try: 1/3
+2018-12-17 12:45:30,919 - INFO - remote_module - file_put: And file: ./RedCRAB/exchange/exchangejob28/Msg_u.txt does not exist (this is okay, as transmission raised an error).
+2018-12-17 12:45:31,265 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:45:31,265 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:45:31,706 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:45:31,726 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:45:31,816 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:45:32,085 - INFO - opti_instance - _read_server_message : Superiteration: 10, NM iteration: 1, NM function evaluation: 6, Total function evaluations: 82
+2018-12-17 12:45:32,085 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:45:32,085 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:45:32,386 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:45:32,386 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:45:32,526 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 1
+2018-12-17 12:45:32,585 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 2
+2018-12-17 12:45:32,666 - ERROR - opti_instance - _check_for_user_message : Error: User message still exists, when it should not. Count = 3
+2018-12-17 12:45:32,756 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:45:32,756 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:45:33,106 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:45:33,106 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:45:33,236 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:45:33,236 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:45:33,536 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:45:33,536 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:45:33,896 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:45:33,911 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:45:33,976 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:45:34,216 - INFO - opti_instance - _read_server_message : Superiteration: 10, NM iteration: 2, NM function evaluation: 7, Total function evaluations: 83
+2018-12-17 12:45:34,216 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:45:34,216 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:45:34,456 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:45:34,456 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:45:34,624 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:45:34,629 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:45:34,938 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:45:34,938 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:45:35,054 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:45:35,054 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:45:35,371 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:45:35,371 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:45:35,735 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:45:35,757 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:45:35,824 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:45:36,058 - INFO - opti_instance - _read_server_message : Superiteration: 10, NM iteration: 2, NM function evaluation: 8, Total function evaluations: 84
+2018-12-17 12:45:36,058 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 12:45:36,058 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 12:45:36,306 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 12:45:36,306 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 12:45:36,439 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 12:45:36,440 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 12:45:36,715 - INFO - opti_instance - opti_loop : Figure of merit recieved
+2018-12-17 12:45:36,715 - INFO - opti_instance - opti_loop : Checking server status
+2018-12-17 12:45:36,829 - INFO - opti_instance - opti_loop : Status checked successfully
+2018-12-17 12:45:36,829 - INFO - opti_instance - opti_loop : Sending figure of merit to server
+2018-12-17 12:45:37,099 - INFO - opti_instance - opti_loop : Figure of merit was sent
+2018-12-17 12:45:37,114 - INFO - opti_instance - opti_loop : Checking if figure of merit record is reached
+2018-12-17 12:45:37,139 - WARNING - remote_module - _re_exists: OSError: ./RedCRAB/exchange/exchangejob28/fom_record.txt does not exist, exit code -3
+2018-12-17 12:45:37,619 - INFO - opti_instance - opti_loop : Fom_record reached. Update record file. 
+2018-12-17 12:45:37,635 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 12:45:37,690 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 12:45:37,921 - INFO - opti_instance - _read_server_message : Optimization finished without errors
+2018-12-17 12:45:37,921 - INFO - redcrab - opti_instance : Handling exit.
+2018-12-17 12:45:38,523 - INFO - remote_module - close_sftp_connection: SFTP connection closed
+2018-12-17 12:45:38,523 - INFO - remote_module - close_ssh_connection: SSH connection closed
+2018-12-17 12:45:38,523 - INFO - redcrab - opti_instance : Exit handled successfully.
+2018-12-17 12:45:38,523 - INFO - redcrab - opti_instance : RedCRAB transmission ended.

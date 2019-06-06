@@ -1,0 +1,4 @@
+To obtain data files you have to put the results of optimized pulse in this folder and then run the program Theoretical_interface.m.
+Then, you will find n_doses in this folder and use the values of doses into the txt files for Mathematica.
+
+NOTE: You have to change parameters and number of doses in Main.so

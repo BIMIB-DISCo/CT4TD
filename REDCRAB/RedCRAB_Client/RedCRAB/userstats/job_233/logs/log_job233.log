@@ -1,0 +1,61 @@
+2018-12-17 15:14:17,718 - INFO - redcrab - main : Starting new RedCRAB optimization run
+2018-12-17 15:14:17,734 - INFO - redcrab - main : Initialization...
+2018-12-17 15:14:17,734 - INFO - redcrab - main : User Job id is: 233
+2018-12-17 15:14:17,734 - INFO - redcrab - main : Internal User Job id is: 1545056057734233
+2018-12-17 15:14:17,734 - INFO - redcrab - main : Manage logging...
+2018-12-17 15:14:17,734 - INFO - redcrab - main : Logging handled
+2018-12-17 15:14:17,734 - INFO - redcrab - main : Establish server connection...
+2018-12-17 15:14:17,734 - INFO - remote_module - ssh_connect: Trying to connect to granat.physik.uni-ulm.de (1/10)
+2018-12-17 15:14:18,042 - INFO - remote_module - ssh_connect: Connected to granat.physik.uni-ulm.de
+2018-12-17 15:14:18,319 - INFO - remote_module - sftp_connect: Opened ftp channel
+2018-12-17 15:14:18,319 - INFO - remote_module - set_ftp_channel_timeout: set ftp channel timeout to: 15
+2018-12-17 15:14:18,319 - INFO - redcrab - main : Checking server status
+2018-12-17 15:14:18,404 - INFO - redcrab - main : Server status ok
+2018-12-17 15:14:18,404 - INFO - redcrab - main : Sending config file to server...
+2018-12-17 15:14:18,574 - INFO - redcrab - main : Config file sent sucessfully...
+2018-12-17 15:14:18,574 - INFO - redcrab - main : Waiting for server answer...
+2018-12-17 15:14:28,772 - INFO - redcrab - main : Server job id is: 31
+2018-12-17 15:14:28,772 - INFO - redcrab - main : Server answer recieved
+2018-12-17 15:14:28,772 - INFO - redcrab - main : Doing final preparations...
+2018-12-17 15:14:31,049 - INFO - redcrab - main : Preparations finished...
+2018-12-17 15:14:31,049 - INFO - redcrab - stopper_instance : Starting stopper instance.
+2018-12-17 15:14:31,049 - INFO - redcrab - opti_instance : Initializing transmission...
+2018-12-17 15:14:35,331 - INFO - redcrab - opti_instance : Starting transmission.
+2018-12-17 15:14:35,347 - INFO - opti_instance - opti_loop : Waiting for pulse update...
+2018-12-17 15:14:35,416 - INFO - opti_instance - _check_server_message : New server message
+2018-12-17 15:14:35,632 - INFO - opti_instance - _read_server_message : Superiteration: 1, NM iteration: 0, NM function evaluation: 1, Total function evaluations: 1
+2018-12-17 15:14:35,632 - INFO - opti_instance - opti_loop : Pulse updated
+2018-12-17 15:14:35,632 - INFO - opti_instance - opti_loop : Downloading pulse...
+2018-12-17 15:14:35,886 - INFO - opti_instance - opti_loop : Pulse downloaded
+2018-12-17 15:14:35,886 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 15:14:36,018 - INFO - opti_instance - opti_loop : Preparations complete
+2018-12-17 15:14:36,018 - INFO - opti_instance - opti_loop : Waiting for figure of merit evaluation...
+2018-12-17 15:14:38,114 - INFO - redcrab - opti_instance : An unhandled exception occurred:
+2018-12-17 15:14:38,114 - INFO - redcrab - opti_instance : Type: MatlabExecutionError Arguments: ("\n  File D:\\Work\\Redcrab\\RedCRAB_Client\\CustomMatlabProgFolder\\Main_so.m, line 0, in @(t)heaviside(t1)*f*D(i)*exp(-ka*(t-t_i(i)))\n\n  File D:\\Work\\Redcrab\\RedCRAB_Client\\CustomMatlabProgFolder\\Main_so.m, line 50, in @(t)temp(t)+absorption(t)\n\n  File D:\\Work\\Redcrab\\RedCRAB_Client\\CustomMatlabProgFolder\\Main_so.m, line 56, in @(t,Y)-ke*Y+ka*absorption(t)\n\n  File C:\\Program Files\\MATLAB\\R2018b\\toolbox\\matlab\\funfun\\private\\odearguments.m, line 90, in odearguments\n\n  File C:\\Program Files\\MATLAB\\R2018b\\toolbox\\matlab\\funfun\\ode45.m, line 115, in ode45\n\n  File D:\\Work\\Redcrab\\RedCRAB_Client\\CustomMatlabProgFolder\\Main_so.m, line 62, in Main_so\n\n  File D:\\Work\\Redcrab\\RedCRAB_Client\\CustomMatlabProgFolder\\objectivefunwrap.m, line 21, in objectivefunwrap\nUndefined function or variable 't1'.\n",)
+2018-12-17 15:14:38,114 - INFO - redcrab - opti_instance : Handling exit.
+2018-12-17 15:20:32,388 - INFO - redcrab - main : Starting recovery from previously aborted optimization
+2018-12-17 15:20:32,388 - INFO - remote_module - ssh_connect: Trying to connect to granat.physik.uni-ulm.de (1/10)
+2018-12-17 15:20:32,748 - INFO - remote_module - ssh_connect: Connected to granat.physik.uni-ulm.de
+2018-12-17 15:20:33,022 - INFO - remote_module - sftp_connect: Opened ftp channel
+2018-12-17 15:20:33,022 - INFO - remote_module - set_ftp_channel_timeout: set ftp channel timeout to: 15
+2018-12-17 15:20:33,022 - INFO - redcrab - main : Aborted job remaining.
+2018-12-17 15:20:33,028 - INFO - redcrab - stopper_instance : Starting stopper instance.
+2018-12-17 15:20:33,028 - INFO - redcrab - opti_instance : Initializing transmission...
+2018-12-17 15:20:46,163 - INFO - redcrab - opti_instance : Starting transmission.
+2018-12-17 15:20:46,301 - INFO - opti_instance - opti_loop : Preparing figure of merit evaluation...
+2018-12-17 15:20:46,332 - WARNING - remote_module - _re_rename: Path to ./RedCRAB/exchange/exchangejob31/Msg_s.txt does not exist.
+2018-12-17 15:20:46,332 - WARNING - remote_module - re_rename: OSError while calling _re_rename in try: 1/3
+2018-12-17 15:20:46,417 - INFO - remote_module - re_rename: And file: ./RedCRAB/exchange/exchangejob31/Msg_s.txt does not seem to exist.
+2018-12-17 15:20:46,664 - WARNING - remote_module - _re_rename: Path to ./RedCRAB/exchange/exchangejob31/Msg_s.txt does not exist.
+2018-12-17 15:20:46,664 - WARNING - remote_module - re_rename: OSError while calling _re_rename in try: 2/3
+2018-12-17 15:20:46,745 - INFO - remote_module - re_rename: And file: ./RedCRAB/exchange/exchangejob31/Msg_s.txt does not seem to exist.
+2018-12-17 15:20:46,988 - WARNING - remote_module - _re_rename: Path to ./RedCRAB/exchange/exchangejob31/Msg_s.txt does not exist.
+2018-12-17 15:20:46,988 - WARNING - remote_module - re_rename: OSError while calling _re_rename in try: 3/3
+2018-12-17 15:20:47,067 - INFO - remote_module - re_rename: And file: ./RedCRAB/exchange/exchangejob31/Msg_s.txt does not seem to exist.
+2018-12-17 15:20:47,067 - ERROR - remote_module - re_rename: Maximum number of retries reached, pass error to caller
+2018-12-17 15:20:47,067 - ERROR - opti_instance - opti_loop : Error when trying to rename Msg_s.txt - exit_code = 3
+2018-12-17 15:20:47,067 - INFO - redcrab - opti_instance : Handling exit.
+2018-12-17 15:20:53,056 - INFO - remote_module - close_sftp_connection: SFTP connection closed
+2018-12-17 15:20:53,056 - INFO - remote_module - close_ssh_connection: SSH connection closed
+2018-12-17 15:20:53,056 - INFO - redcrab - opti_instance : Exit handled successfully.
+2018-12-17 15:20:53,056 - INFO - redcrab - opti_instance : RedCRAB transmission ended.

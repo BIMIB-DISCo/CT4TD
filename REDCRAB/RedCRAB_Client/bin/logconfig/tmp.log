@@ -1,0 +1,4 @@
+2019-01-18 16:15:27,686 - INFO - redcrab - main : Starting new RedCRAB optimization run
+2019-01-18 16:15:27,687 - INFO - redcrab - main : Initialization...
+2019-01-18 16:15:27,689 - ERROR - redcrab - _get_user_job_id : Error: No file in RedCRAB_config path
+2019-01-18 16:15:27,689 - INFO - redcrab - main : Terminating RedCRAB
