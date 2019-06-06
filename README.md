@@ -35,24 +35,25 @@ The various folders of this GitHub repository include the scripts to generate th
 
 1) **Data analysis** 
 For any step, please refer to the readme included in the corresponding folders. 
-To run the analysis of the tumor burden variation longitudinal data (original dataset from: Michor, F., et al. "Dynamics of chronic myeloid leukaemia." Nature 435.7046 (2005): 1267.), please run the Mathematica notebook named "linear-analysis.nb" included in folder: "Data analysis". 
+To run the analysis of the tumor burden variation longitudinal data (original dataset from: Michor, F., et al. "Dynamics of chronic myeloid leukaemia." Nature 435.7046 (2005): 1267.), please run the Mathematica notebook named "Linear-analysis.nb" included in folder: "DATA-ANALISYS". 
 
 2) **Patient-specific PD parameters** 
 To obtain the personalized PD parameters as derived from the data analysis procedure, please run the Mathematica notebook "evaluation-of-EC50.nb" included in the folder "FIG4".  
 
 3) **Optimization** 
 
-A) In order to perform the optimization procedure, one should first access to the "REDCRAB/RedCRAB_Client" folder and follow the instructions contained in the "QuickstartGuide.txt"  file, which include a guide concerning the pipeline configuration. 
+A) In order to perform the optimization procedure, one should first access to the "REDCRAB/RedCRAB_Client" folder and follow the instructions contained in the "QuickstartGuide.txt"  file, which include a guide concerning the client configuration. 
 It is possible to set the parameters of the PK/PD models, the number of doses and to define distinct functional costs by modifying the MATLAB script named "Main_so.m". 
 It is then possible to launch the Python script named "RedCrab.py".
 
-B) After completing the optimization procedure, please move the file named SI=*** (please refer to the "QuickstartGuide.txt" inside folder RedCRAB_Client on how finding it) into the folder named "to-extract-results" and successively run the Matlab script "Theoretical_interface.m" (NOTE: you will need to modify the "Main_so.m" script with same parameters and number of doses of the "Main_so.m" script included in the RedCRAB_Client floder).
+B) After completing the optimization procedure, please move the file named SI=*** (please refer to the "QuickstartGuide.txt" inside folder RedCRAB_Client on how finding it) into the folder named "to-extract-results" and successively run the Matlab script "Theoretical_interface.m" (NOTE: you will need to modify the path in "Theoretical_interface.m" and the "Main_so.m" script with same parameters and number of doses of the "Main_so.m" script included in the RedCRAB_Client floder).
 This will produce a file named "n_doses.txt", wich contains the time schedule and the dosage of the optimized therapy
 
 4) **Figures**  
 To generate the figures you will finally have to write (copy) the content (i.e., the dosage) of the file "n_doses.txt" into the file named doses***.txt file. 
 The procedure must be repeated for folders: "FIG3", "FIG5" and "FIG6" folder. 
 You can successively run the Mathematica notebooks included in the folder corresponding to the Figure number. 
+To obtain Fig. 2 just run the Mathematica notebook "simulation-of-all-pk.nb" in the folder "FIG2" 
 
 
 
