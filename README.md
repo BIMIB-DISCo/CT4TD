@@ -18,11 +18,13 @@ Instructions to reproduce the case study presented in the paper
 ----------------------------------
 
 **Software Requiremtents**
+
 - Matlab (any version)
 - Mathematica (any version)
 - Python (>= 2.0)
 
 **Instructions** 
+
 The various folders of this GitHub repository include the scripts to generate the figures of the main text and of the SI of the article, as well as to perform the longitudinal data analysis and to launch the RedCrab suite. Please follow the following steps. 
 
 1) In order to perform the optimization procedure, one should first access to the "REDCRAB/RedCRAB_Client" folder and follow the instructions contained in the readme file, which include a quick start guide oncerning the pipeline configuration. 
