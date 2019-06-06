@@ -46,7 +46,7 @@ A) In order to perform the optimization procedure, one should first access to th
 It is possible to set the parameters of the PK/PD models, the number of doses and to define distinct functional costs by modifying the MATLAB script named "Main_so.m". 
 It is then possible to launch the Python script named "RedCrab.py".
 
-B) After completing the optimization procedure, please move the file named SI=*** (please refer to the "QuickstartGuide.txt" inside folder RedCRAB_Client on how finding it) into the folder named "to-extract-results" and successively run the Matlab script "Theoretical_interface.m" (NOTE: you will need to modify the path in "Theoretical_interface.m" and the "Main_so.m" script with same parameters and number of doses of the "Main_so.m" script included in the RedCRAB_Client floder).
+B) After completing the optimization procedure, please move the file named SI=*** (please refer to the "QuickstartGuide.txt" inside folder RedCRAB_Client on how finding it) into the folder named "to-extract-results" and successively run the Matlab script "Theoretical_interface.m" (NOTE: you will need to modify the path in "Theoretical_interface.m" and the "Main_so.m" script with same parameters and number of doses of the "Main_so.m" script included in the RedCRAB_Client folder).
 This will produce a file named "n_doses.txt", wich contains the time schedule and the dosage of the optimized therapy
 
 4) **Figures**  
