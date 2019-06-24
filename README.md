@@ -30,7 +30,9 @@ Instructions to reproduce the case study presented in the paper
 
 
 **Instructions for a single new analysis and optimization** 
-Open Folder single-analysis,
+
+Open Folder single-analysis, and follow the steps
+
 Step 1:
 
 	-Open Settings.txt in the folder data-analysis and insert the demographic factor of the patient.
