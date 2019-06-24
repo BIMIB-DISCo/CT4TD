@@ -29,32 +29,30 @@ Instructions to reproduce the case study presented in the paper
 - Stable internet connection
 
 
-**Instructions** 
+**Instructions for a single new analysis and optimization** 
+Open Folder single-analysis,
+	Step 1:
+ 
+	-Open Settings.txt in the folder data-analysis and insert the demographic factor of the patient.
+	- If you known the experimental results of the dynamics of the tumor burden insert them in a Excel file named Data-TB.xls,
+	  note that you have to insert the times in the first row and the data of tumor burden in the second row, these data must be inserted      in percentile
+	-Open single-analysis.nb  as a mathematica notebook (http://www.wolfram.com/?source=nav) then click Evaluation > Evaluate Notebook to run the analysis.
+		
+		
+		
+	Step 2:
+	- In the main folder lauch script_Step2.py and follow instructions on screen.
+	
+	Step 3:
+	-Extract results of optimization. You could find them in the folder RedCRAB/userstats/job_#job_id#/Opti_pulses.
+	 #job_id# is the name of the job.
+	 The standard name for such file is SI=XX_Feval_no=XX_FOM=XXXXXXXX.txt
+	-Put the .txt file into the folder \plot
+	-Modify parameters of \plot\Main_so.m with the same parameters of optimization (e.g., CL,V, number of doses,..)
+	-Modify \plot\Theoretical_Interface.m with the name of the file SI=XX_Feval_no=XX_FOM=XXXXXXXX.txt and lauch the 
+	 script
+	-Now,  plots should pop-up and in the folder plot there are the data files with results, in particular in file n_doses.txt will          contains	the doses and the time schedule.
+	
 
-The various folders of this GitHub repository include the scripts to generate the figures of the main text and of the SI of the article, as well as to perform the longitudinal data analysis and to launch the RedCrab suite. Please follow the following steps. 
-
-1) **Data analysis** 
-For any step, please refer to the readme included in the corresponding folders. 
-To run the analysis of the tumor burden variation longitudinal data (original dataset from: Michor, F., et al. "Dynamics of chronic myeloid leukaemia." Nature 435.7046 (2005): 1267.), please run the Mathematica notebook named "Linear-analysis.nb" included in folder: "DATA-ANALISYS". 
-
-2) **Patient-specific PD parameters** 
-To obtain the personalized PD parameters as derived from the data analysis procedure, please run the Mathematica notebook "evaluation-of-EC50.nb" included in the folder "FIG4".  Note that you have to insert the values of \beta (the value of the decay of cancer stem cells) obtained by data analysis and personalized PK parameters inside the file "personal-parameters.txt" (refer to "Legend-personal-parameters"), the file is altready compiled with the results of data analysis obtained in the studied dataset.
-
-3) **Optimization** 
-
-A) In order to perform the optimization procedure, one should first access to the "REDCRAB/RedCRAB_Client" folder and follow the instructions contained in the "QuickstartGuide.txt"  file, which include a guide concerning the client configuration. 
-It is possible to set the parameters of the PK/PD models, the number of doses and to define distinct functional costs by modifying the MATLAB script named "Main_so.m". 
-It is then possible to launch the Python script named "RedCrab.py".
-
-B) After completing the optimization procedure, please move the file named SI=*** (please refer to the "QuickstartGuide.txt" inside folder RedCRAB_Client on how finding it) into the folder named "to-extract-results" and successively run the Matlab script "Theoretical_interface.m" (NOTE: you will need to modify the path in "Theoretical_interface.m" and the "Main_so.m" script with same parameters and number of doses of the "Main_so.m" script included in the RedCRAB_Client folder).
-This will produce a file named "n_doses.txt", wich contains the time schedule and the dosage of the optimized therapy
-
-4) **Figures**  
-To generate the figures you will finally have to write (copy) the content (i.e., the dosage) of the file "n_doses.txt" into the file named doses***.txt file. 
-The procedure must be repeated for folders: "FIG3", "FIG5" and "FIG6" folder. 
-You can successively run the Mathematica notebooks included in the folder corresponding to the Figure number. 
-To obtain Fig. 2 just run the Mathematica notebook "simulation-of-all-pk.nb" in the folder "FIG2".
-For all cases, you have to insert the values of \beta (the value of the decay of cancer stem cells) and personalized PK parameters inside the file "personal-parameters.txt" (refer to "Legend-personal-parameters")
-
-
-
+**Instructions for reproduct the paper figures** 
+Just enter in the folder named after the figure of the paper and run the Mathematica notebooki
