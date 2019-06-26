@@ -1,4 +1,0 @@
-UserID := 1005
-HostName := granat.physik.uni-ulm.de
-Username := client1005
-Password := CAr%ik0f-3b4

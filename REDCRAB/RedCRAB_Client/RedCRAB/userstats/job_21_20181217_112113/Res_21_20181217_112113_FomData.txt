@@ -1,4 +1,0 @@
-Figure of merit results from optimization:
-782072.0044212503
-783348.0783577546
-782730.6654010548
