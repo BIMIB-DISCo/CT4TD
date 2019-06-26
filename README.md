@@ -36,10 +36,13 @@ Open Folder single-analysis, and follow the steps
 Step 1:
 
 	-Open Settings.txt in the folder data-analysis and insert the demographic factor of the patient.
-	- If you known the experimental results of the dynamics of the tumor burden insert them in a Excel file named Data-TB.xls,
-	  note that you have to insert the times in the first row and the data of tumor burden in the second row, these data must be            inserted in percentile
+	
+	- If you known the experimental results of the dynamics of the tumor burden insert them in a Excel file named 
+	Data-TB.xls,note that you have to insert the times in the first row and the data of tumor burden in the second row,
+	these data must be inserted in percentile of cells with BCR-ABL mutation respect the total.
 	  
-	-Open single-analysis.nb  as a mathematica notebook (http://www.wolfram.com/?source=nav) then click Evaluation > Evaluate       	  Notebook to run the analysis.
+	-Open single-analysis.nb  as a mathematica notebook (http://www.wolfram.com/?source=nav) then click Evaluation 
+	 Evaluate Notebook to run the analysis.
 Step 2:
 
 	- In the main folder lauch script_Step2.py and follow instructions on screen.
@@ -48,11 +51,13 @@ Step 3:
 	-Extract results of optimization. You could find them in the folder RedCRAB/userstats/job_#job_id#/Opti_pulses.
 	 #job_id# is the name of the job.
 	 The standard name for such file is SI=XX_Feval_no=XX_FOM=XXXXXXXX.txt
-	-Put the .txt file into the folder \plot
-	-Modify parameters of \plot\Main_so.m with the same parameters of optimization (e.g., CL,V, number of doses,..)
+	-Put the .txt file into the folder \plot.
+	-Modify parameters of \plot\Main_so.m with the same parameters of optimization (e.g., CL,V, number of doses). These     
+	parameters are in file \data-analysis\demo-par.dat.
 	-Modify \plot\Theoretical_Interface.m with the name of the file SI=XX_Feval_no=XX_FOM=XXXXXXXX.txt and lauch the 
-	 script
-	-Now,  plots should pop-up and in the folder plot there are the data files with results, in particular in file n_doses.txt will          contains the doses and the time schedule
+	 script.
+	-Now,  plots should pop-up and in the folder plot there are the data files with results, in particular in file  
+	n_doses.txt will contains the doses and the time schedule.
 	
 	
  
