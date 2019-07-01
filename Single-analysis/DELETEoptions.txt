@@ -1,0 +1,19 @@
+#OPTION FILE
+#set your parameter by changing the corresponding value.
+#PLEASE DO NOT CHANGE THE ROW ORDER OF THIS FILE
+#Demographical factors
+Body weight: 100
+Age: 50
+Sex M(1), F(0): 1
+
+#Tumor Burden
+DataAnalysis True(1), False(0): 1
+ExcelFilePath: data-analysis\Data-TB.xls
+
+#Current therapeutic treatment
+Doses (mg): 400
+NumDoses/day: 1
+
+#Experimental settings
+Target Optimal(1), Lower(0): 1
+Target (mg/L): 1.0 
