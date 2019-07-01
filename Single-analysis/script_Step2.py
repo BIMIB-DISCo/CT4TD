@@ -64,7 +64,7 @@ with open(os.path.join('data-analysis', 'Settings.txt'), 'r') as f:
 
 #Carico valori calcolati
 pc = []
-with open(os.path.join('data-analysis', 'Personal.dat'), 'r') as f:
+with open(os.path.join('data-analysis', 'personal.dat'), 'r') as f:
     for l in f:
         pc.append("".join(l.split()))
        
