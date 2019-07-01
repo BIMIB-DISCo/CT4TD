@@ -22,6 +22,7 @@ Instructions to reproduce the case study presented in the paper
 - Python 3.5+ (may work with older versions of the 3.0 branch, but not with 2.7+ branch)
 - Paramiko 2.1.2+ (may work with older versions, but is unsupported)
 - numpy 1.12.0+ (may work with older versions, but is unsupported)
+- tkinter
 - matplotlib 2.2.2+ (may work with older versions, but is unsupported)
 - scipy 1.0.1+ (may work with older versions, but is unsupported)
 -  matlab.engine (for fomevaluation = 3, see /Config/Client_config/chopped.txt file and https://it.mathworks.com/help/matlab/matlab_external/install-the-matlab-engine-for-python.html   for more informations)
@@ -31,7 +32,7 @@ Instructions to reproduce the case study presented in the paper
 
 **Instructions for a single new analysis and optimization** 
 
-Open Folder single-analysis, and follow the steps
+Open Folder Single-analysis, and follow the steps
 
 Step 1:
 
