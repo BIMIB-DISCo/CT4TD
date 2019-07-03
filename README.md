@@ -54,7 +54,7 @@ Step 3:
 	 The standard name for such file is SI=XX_Feval_no=XX_FOM=XXXXXXXX.txt
 	-Put the .txt file into the folder \plot.
 	-Modify parameters of \plot\Main_so.m with the same parameters of optimization (e.g., CL,V, number of doses). These     
-	parameters are in file \data-analysis\demo-par.dat.
+	parameters are in file \data-analysis\personal.dat 50in this order (Cl,V,K_a,EC_{50}).
 	-Modify \plot\Theoretical_Interface.m with the name of the file SI=XX_Feval_no=XX_FOM=XXXXXXXX.txt and lauch the 
 	 script.
 	-Now,  plots should pop-up and in the folder plot there are the data files with results, in particular in file  
