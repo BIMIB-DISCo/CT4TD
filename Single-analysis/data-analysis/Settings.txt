@@ -1,2 +1,2 @@
 BodyWeight	Age	Sex	WorkingScenario	Doses	NumerOfDoses
-100	54	1	1	400	1
+70	54	1	1	400	1
