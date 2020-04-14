@@ -66,9 +66,12 @@ Step 3:
 	n_doses.txt will contains the doses and the time schedule.
 	
 	
-	
+
+NOTE: in order to change the disease parameters (or its model) or the equations of the population PK one must open the MATLAB script 
+Main_so.m located in the folder CT4TD/Single-analysis/RedCRAB_Client/CustomMatlabProgFolder/.	
 	
 	
 If you want to replicate the results of the paper applying CT4TD to the same data set, you could find the used data in the file "Data used for michor Nature paper 2005.xls". You have to copy the time evolution of ONE  tumour burden in the file "Data-TB.xls" and put the demographic factors of the patient in the file "Settings.txt".
+
 
 NOTE: it is possible that the optimization does not give the same result, this is due to the behavior of REDCRAB (it is intrisically random) or because you choose other values for the number of Fourier basis or the Super Iteration  inside the Cfg.txt file.
