@@ -37,7 +37,7 @@ Open Folder Single-analysis, and follow the steps
 Step 1:
 
 	-Open Settings.txt in the folder data-analysis and insert the demographic factor of the patient
-	(BW[kg],Age[years],Sex[1=Male,0=Female]). Note that in this file is necessary to specify the working scenario,\
+	(BW[kg],Age[years],Sex[1=Male,0=Female]). Note that in this file is necessary to specify the working scenario,
 	if you select working scenario 1 then skip the next step.
 	If you do not change this file the program will use the average demographic parameters (BW= 70 Kg, Age=50 years, Sex= Male) and
 	the number of doses per day.
