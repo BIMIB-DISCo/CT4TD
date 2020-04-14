@@ -36,15 +36,19 @@ Open Folder Single-analysis, and follow the steps
 
 Step 1:
 
-	-Open Settings.txt in the folder data-analysis and insert the demographic factor of the patient. If you do not change this file
-	the program will use the average demographic parameters (BW= 70 Kg, Age=50 years ,Sex= Male)
+	-Open Settings.txt in the folder data-analysis and insert the demographic factor of the patient
+	(BW[kg],Age[years],Sex[1=Male,0=Female]). 
+	If you do not change this file the program will use the average demographic parameters (BW= 70 Kg, Age=50 years, Sex= Male) and
+	the number of doses per day.
+	Note that in this file is necessary to specify the working scenario, if you select working scenario 1 then skip the next step.
 	
 	- If you known the experimental results of the dynamics of the tumor burden insert them in a Excel file named 
 	Data-TB.xls,note that you have to insert the times (in months) in the first row and the data of tumor burden in the second row,
 	these data must be inserted in percentile of cells with BCR-ABL mutation respect the total.
 	  
-	-Open single-analysis.nb  as a mathematica notebook (http://www.wolfram.com/?source=nav) then click Evaluation 
-	 Evaluate Notebook to run the analysis.
+	-Open single-analysis.nb  as a mathematica notebook (http://www.wolfram.com/?source=nav) then click Evaluation ->
+	Evaluate Notebook to run the analysis. You will obtain the PK personal parameters (file personal.dat) and in if TB data are 
+	present also the PD personalized parameters.
 Step 2:
 
 	- In the main folder lauch script_Step2.py and follow instructions on screen.
