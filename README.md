@@ -12,7 +12,7 @@ A preprint of the article is available at this link: https://www.biorxiv.org/con
 
 This repositories contains script and data to reproduced the case study discussed in the article. 
 In particular, we apply CT4TD to the case of Imatinib administration in Chronic Myeloid Leukemia and show that tailored therapies display remarkable advantages in terms of efficacy and reduced toxicity. It is also possible to run a new analysis on the same case of
-study without any change. Instead if one wants to optimize the PK of another drug or change the parameters of the disease one must modify the MATLAB script Main_so.m (see below for further instruction).
+study without any change. Instead if one wants to optimize the PK of another drug or change the parameters of the disease one must modify the MATLAB script Main_so.m (see below for further instructions).
 
 ----------------------------------
 Instructions to reproduce the case study presented in the paper
