@@ -47,7 +47,7 @@ Step 1:
 	these data must be inserted in percentile of cells with BCR-ABL mutation respect the total.
 	  
 	-Open single-analysis.nb  as a mathematica notebook (http://www.wolfram.com/?source=nav) then click Evaluation ->
-	Evaluate Notebook to run the analysis. You will obtain the PK personal parameters (file personal.dat) and in if TB data are 
+	Evaluate Notebook to run the analysis. You will obtain the PK personal parameters (file personal.dat) and  if TB data are 
 	present also the PD personalized parameters.
 Step 2:
 
