@@ -36,7 +36,8 @@ Open Folder Single-analysis, and follow the steps
 
 Step 1:
 
-	-Open Settings.txt in the folder data-analysis and insert the demographic factor of the patient.
+	-Open Settings.txt in the folder data-analysis and insert the demographic factor of the patient. If you do not change this file
+	the program will use the average demographic parameters (BW= 70 Kg, Age=54 years ,Sex= Male)
 	
 	- If you known the experimental results of the dynamics of the tumor burden insert them in a Excel file named 
 	Data-TB.xls,note that you have to insert the times (in months) in the first row and the data of tumor burden in the second row,
