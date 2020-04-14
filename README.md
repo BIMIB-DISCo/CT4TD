@@ -8,10 +8,11 @@ We introduce the CT4TD (Control Theory for Therapy Design) theoretical framework
 
 With CT4TD it is possible to identify optimized therapies at diagnosis, aimed at reaching selected drug concentration, or to adjust existing therapeutic regimes, when longitudinal data on disease progression are available.  
 
-A preprint of the article is available at this link: 
+A preprint of the article is available at this link: https://www.biorxiv.org/content/10.1101/662858v1
 
 This repositories contains script and data to reproduced the case study discussed in the article. 
-In particular, we apply CT4TD to the case of Imatinib administration in Chronic Myeloid Leukemia and show that tailored therapies display remarkable advantages in terms of efficacy and reduced toxicity.
+In particular, we apply CT4TD to the case of Imatinib administration in Chronic Myeloid Leukemia and show that tailored therapies display remarkable advantages in terms of efficacy and reduced toxicity. It is also possible to run a new analysis on the same case of
+study without any change. Instead if one wants to optimize the PK of another drug or change the parameters of the disease one must modify the MATLAB script Main_so.m (see below for further instruction).
 
 ----------------------------------
 Instructions to reproduce the case study presented in the paper
